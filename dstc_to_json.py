@@ -1,61 +1,128 @@
-import json
+import zipfile
+import tempfile
 import spacy
 import os
-
+from dstc_utilities import *
 nlp = spacy.load('en')
 
-dataset_name = "train"
-dataset_path = "data/dstc3/"
-output_path = "data/output/"
+archive_dir = "dstc_archive/"
+data_dir = "dstc_data/"
 
-# Get a list of all the dialogues
-dataset_list = os.listdir(dataset_path + dataset_name)
+sets = ['train', 'test']
 
-out_data = dict()
-dialogues = []
-num_dialogues = 0
+# Create a temporary directory and unzip the archived data
+with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
+    print('Created temporary directory', tmp_dir)
 
-# For each dialogue
-# for folder in dataset_list:
+    zip_file = zipfile.ZipFile(archive_dir + '/dstc3_archive.zip', 'r')
+    zip_file.extractall(tmp_dir)
+    zip_file.close()
 
-for i in range(3,4):
-    folder = dataset_list[i]
-    print(folder)
-    # Read JSON files
-    with open(dataset_path + dataset_name + "/" + folder + "/" + "log.json") as file:
-        sys_data = json.load(file)
+    for dataset_name in sets:
+        # Get a list of all the dialogues
+        set_list = os.listdir(tmp_dir + "/" + dataset_name)
 
-    with open(dataset_path + dataset_name + "/" + folder + "/" + "label.json") as file:
-        usr_data = json.load(file)
+        dialogue_data = dict()
+        dialogues = []
+        num_dialogues = 0
 
-    # print(sys_data)
-    # print(usr_data)
+        # For each dialogue
+        for folder in set_list:
 
-    dialogue = dict()
-    utterances = []
-    num_utterances = 0
+            # Read JSON files
+            sys_data = load_json_data(tmp_dir + "/" + dataset_name + "/" + folder + "/", "log")
+            usr_data = load_json_data(tmp_dir + "/" + dataset_name + "/" + folder + "/", "label")
 
-    for j in range(len(usr_data['turns'])):
+            dialogue = dict()
+            utterances = []
+            num_utterances = 0
 
-        sys_turn = sys_data['turns'][j]
-        usr_turn = usr_data['turns'][j]
-        # print(sys_turn['turn-index'])
-        # print(usr_turn['turn-index'])
-        sys_utts = nlp(sys_turn['output']['transcript'])
-        print(sys_utts)
-        usr_utts = nlp(usr_turn['transcription'])
-        print(usr_utts)
+            # For each turn in the dialogue
+            for turn in range(len(usr_data['turns'])):
 
-        slots = dict()
-        # Get the user slots for this turn
-        for data in usr_turn['semantics']['json']:
+                # Get the user and system turns
+                sys_turn = sys_data['turns'][turn]
+                usr_turn = usr_data['turns'][turn]
 
-            for slot in data['slots']:
-                slots[slot[0]] = slot[1]
-        print(slots)
-        # Get systems utterances (it always starts)
-        for sent in sys_utts.sents:
+                # Split the system and user utterances into sentences
+                sys_utts = nlp(sys_turn['output']['transcript'])
+                usr_utts = nlp(usr_turn['transcription'])
 
-            utterance = dict()
+                # Convert system utterances to dictionary
+                for sent in sys_utts.sents:
 
-            utterance['speaker'] = "SYS"
+                    utterance = dict()
+
+                    # Set speaker
+                    utterance['speaker'] = "SYS"
+
+                    # Set the utterance text
+                    utterance['text'] = sent.text
+
+                    # Set ap labels to empty and da label
+                    utterance['ap_label'] = ""
+                    utterance['da_label'] = sys_turn['output']['dialog-acts'][0]['act']
+
+                    # Get the slot values from the previous user turn
+                    slots = dict()
+                    if turn > 0:
+                        prev_usr_turn = usr_data['turns'][turn - 1]['semantics']['json']
+                        for json_slots in prev_usr_turn:
+                            # Check there are slot values
+                            if json_slots['slots']:
+                                slots[json_slots['slots'][0][0]] = json_slots['slots'][0][1]
+
+                    # Set slots data
+                    utterance['slots'] = slots
+
+                    # Add to utterances
+                    num_utterances += 1
+                    utterances.append(utterance)
+
+                # Convert system utterances to dictionary
+                for sent in usr_utts.sents:
+
+                    utterance = dict()
+
+                    # Set speaker
+                    utterance['speaker'] = "USR"
+
+                    # Set the utterance text
+                    utterance['text'] = sent.text
+
+                    # Set ap labels to empty and da label if it exists
+                    utterance['ap_label'] = ""
+
+                    if usr_turn['semantics']['json']:
+                        utterance['da_label'] = usr_turn['semantics']['json'][0]['act']
+                    else:
+                        utterance['da_label'] = ""
+
+                    # Add to utterances
+                    num_utterances += 1
+                    utterances.append(utterance)
+
+            # Create dialogue
+            dialogue['dialogue_id'] = dataset_name + '_' + str(num_dialogues + 1)
+            dialogue['num_utterances'] = num_utterances
+            dialogue['utterances'] = utterances
+
+            # Create the scenario
+            scenario = dict()
+            scenario['db_id'] = usr_data['session-id']
+            scenario['db_type'] = "find restaurant"
+            scenario['task'] = usr_data['task-information']['goal']['text']
+            scenario['items'] = []
+            dialogue['scenario'] = scenario
+
+            # Add to dialogues
+            num_dialogues += 1
+            dialogues.append(dialogue)
+
+        # Add dataset metadata
+        dialogue_data['dataset'] = dataset_name
+        dialogue_data['num_dialogues'] = num_dialogues
+        dialogue_data['dialogues'] = dialogues
+
+        # Save to JSON file
+        save_json_data(data_dir, "dstc3_" + dataset_name, dialogue_data)
