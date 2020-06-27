@@ -29,6 +29,5 @@ USR|hammerstone road|null
 SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
 USR|address|request
 SYS|The Fleur is located on 73 Humberstone Road.|offer
-USR|unintelligible|null
 SYS|The Alma is an outstanding pub.|offer
 USR|thank you goodbye|bye

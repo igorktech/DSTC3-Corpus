@@ -8,6 +8,6 @@ USR|i need to know their address|request
 SYS|The Ranch is on 100 Histon Road.|offer
 USR|phone number|request
 SYS|The phone number of the Ranch is 01223322772.|offer
-USR|unintelligible the food|request
+USR|<unk> the food|request
 SYS|The Ranch is an outstanding restaurant.|offer
 USR|thank you good bye|bye

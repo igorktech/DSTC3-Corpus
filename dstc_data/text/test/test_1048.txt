@@ -23,7 +23,6 @@ SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe
 SYS|This place, which serves english food, is in the moderate price range.|offer
 USR|expensive|inform
 SYS|Would you like a venue with an expensive or moderate price range?|select
-USR|unintelligible|null
 SYS|Would you like a venue with an expensive or moderate price range?|select
 USR|what is an english|inform
 SYS|Would you like a venue with an expensive or moderate price range?|select

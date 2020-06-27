@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|hi a moderately priced restaurant|hello
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Byard Art, Magdalene College, or Pembroke College.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Fen Ditton, or King's Hedges area.|request
 USR|kings hedges|inform
@@ -20,7 +19,6 @@ SYS|The Ranch is in the King's Hedges part of town.|offer
 SYS|The Ranch is a great restaurant.|offer
 USR|what area is it in|request
 SYS|The Ranch is in the King's Hedges part of town.|offer
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the central, New Chesterton, or riverside area.|request
 USR|thank you goodbye|bye

@@ -4,10 +4,9 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|noise looking for a coffee shop serving italian food|inform
+USR|<unk> looking for a coffee shop serving italian food|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Gallery at twelve A High Street, the Ruskin Gallery, or the Lammas Land Park.|request
 USR|coffee shop with italian food|inform

@@ -4,7 +4,6 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 USR|moderately priced restaurant in kings hedges area|inform
 SYS|The Ranch is a great restaurant, it's in the King's Hedges part of town and it's in the moderate price range.|offer
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Chesterton, or Newnham area.|request
 USR|whats the address|request

@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|expensive restaurant in addonbrookes|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
 USR|expensive restaurant|inform
@@ -14,7 +13,6 @@ SYS|For example, something in the Cherry Hinton, Chesterton, or New Chesterton a
 USR|addonbrookes|inform
 SYS|What type of food would you like?|request
 SYS|For example, Fastfood, French, or Middleeastern.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, Cherry Hinton, or Newnham area.|request
 SYS|Are you looking for somewhere near a particular venue?|request
@@ -22,7 +20,6 @@ SYS|For example, Artspace, Holy Trinity Church, or the Regency Gallery.|request
 USR|no|negate
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, central, or Trumpington area.|request
-USR|noise sil|null
 SYS|Are you looking for a pub or a restaurant?|select
 USR|addonbrookes|inform
 SYS|Are you looking for a pub or a restaurant?|select

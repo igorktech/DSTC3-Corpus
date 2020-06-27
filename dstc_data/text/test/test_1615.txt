@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|Let me confirm.|expl-conf
 SYS|You are looking for a venue in the Girton area.|expl-conf
 USR|what the automatic response code please|null
@@ -14,7 +13,7 @@ SYS|You are looking for a venue in the Girton area.|expl-conf
 USR|no|negate
 SYS|Let me confirm.|expl-conf
 SYS|You are looking for a pub venue.|expl-conf
-USR|no im looking for unitelligible|negate
+USR|no i m looking for <unk>|negate
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
 USR|yes|affirm
@@ -34,7 +33,7 @@ USR|ok ah|ack
 SYS|Would you like an expensive price range, or you don't care?|select
 USR|yes|affirm
 SYS|Would you like an expensive price range, or you don't care?|select
-USR|noise unintelligible price range|request
+USR|<unk> <unk> price range|request
 SYS|What type of food would you like?|request
 SYS|For example, Seafood, Spanish, or Turkish.|request
 USR|greek food|inform

@@ -15,7 +15,6 @@ USR|no|negate
 SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
 USR|no|negate
 SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 USR|which area is it|request
 SYS|La Raza, which is in the central part of town, is located on 4-6, The Basement, Rose Crescent.|offer
@@ -25,7 +24,7 @@ USR|i want a restaurant in the fenditton area|inform
 SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
 USR|i want a restaurant in the fenditton area|inform
 SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
-USR|unintelligible fenditton|inform
+USR|<unk> fenditton|inform
 SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
 SYS|It's in the cheap price range.|offer
 USR|can you give me the address|request

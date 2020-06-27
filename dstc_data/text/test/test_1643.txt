@@ -19,7 +19,6 @@ SYS|The Oak Bistro is a great restaurant and it's in the Trumpington part of tow
 USR|may i have the address and what type of food|request
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about the food and you are looking for a venue.|expl-conf
-USR|unintelligible|null
 SYS|Are you looking for a pub or a restaurant?|select
 USR|i need the address|request
 SYS|Are you looking for a pub or a restaurant?|select
@@ -29,7 +28,6 @@ USR|and what type of food|request
 SYS|The Oak Bistro serves contemporary food.|offer
 USR|and is it in trumpington|confirm
 SYS|The Oak Bistro is in the Trumpington part of town.|offer
-USR|background noise|null
 SYS|The Oak Bistro is an outstanding restaurant.|offer
 USR|is it in trumpington|confirm
 SYS|The Oak Bistro is in the Trumpington part of town.|offer

@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|i need a spanish restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cafe Jello, Corpus Christi, or Kettle's Yard.|request
-USR|unintelligible|null
 SYS|La Raza, which serves spanish food, is an outstanding restaurant.|offer
 USR|yah|null
 SYS|What kind of price range are you looking for?|request

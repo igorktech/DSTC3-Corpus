@@ -8,7 +8,7 @@ SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|breathing cheap pub with television|inform
+USR|<unk> cheap pub with television|inform
 SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
 USR|cheap cheap pub with a television|inform
 SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer

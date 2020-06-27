@@ -2,7 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|can i find an international restaurant unintelligible and i dont care about the price range|inform
+USR|can i find an international restaurant <unk> and i do nt care about the price range|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 USR|a rest international restaurant|inform

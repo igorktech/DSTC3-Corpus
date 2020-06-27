@@ -29,9 +29,7 @@ USR|address and postcode|request
 SYS|The Rainbow Cafe is in the area with the postcode CB2 1SJ and I am sorry but there is no information on its internet connection.|canthelp.missing_slot_value
 SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|canthelp.missing_slot_value
 SYS|The Rainbow Cafe is an outstanding restaurant.|offer
-USR|unintelligible|null
 SYS|The Rainbow Cafe is a great restaurant.|offer
-USR|unintelligible|null
 SYS|The Rainbow Cafe is an outstanding restaurant.|offer
 USR|address and postcode|request
 SYS|The Rainbow Cafe is in the area with the postcode CB2 1SJ.|offer

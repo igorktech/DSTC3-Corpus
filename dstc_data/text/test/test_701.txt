@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for an american restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the University Botanic Gardens, Clare Hall, or Milton Country Park.|request
-USR|unintelligible|null
 SYS|Are you looking for a pub or a restaurant?|select
 USR|restaurant|inform
 SYS|Let me confirm.|expl-conf

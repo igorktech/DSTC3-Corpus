@@ -23,4 +23,4 @@ USR|the gallery at twelve and hide|inform
 SYS|The J Restaurant is an outstanding restaurant, it serves chinese food and it's in the moderate price range.|offer
 USR|thats all i need|bye
 SYS|The phone number of the J Restaurant is 01223307273.|offer
-USR|thank you good unintelligible|thankyou
+USR|thank you good <unk>|thankyou

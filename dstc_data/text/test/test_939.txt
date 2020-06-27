@@ -9,10 +9,8 @@ SYS|Are you looking for a venue with an internet connection?|request
 USR|no|negate
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, free, or moderate.|request
-USR|unintelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or expensive.|request
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, free.|request
 USR|cheap cheap|inform

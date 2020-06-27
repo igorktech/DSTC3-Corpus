@@ -20,7 +20,7 @@ SYS|Let me confirm.|expl-conf
 SYS|You are looking for a middleeastern venue.|expl-conf
 USR|yes|affirm
 SYS|There is no restaurant in the Cherry Hinton area and serving middleeastern food.|canthelp
-USR|dog bark|null
+USR|<unk> bark|null
 SYS|Would you like a cherry hinton area, or you don't care?|select
 USR|yes|affirm
 SYS|Would you like a cherry hinton area, or you don't care?|select

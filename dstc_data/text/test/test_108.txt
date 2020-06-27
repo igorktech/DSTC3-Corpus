@@ -19,7 +19,6 @@ SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a gr
 SYS|It's in the moderate price range.|offer
 USR|whats the phone number|request
 SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
-USR|noise sil|null
 SYS|Yippee Noodle Bar is a great restaurant.|offer
 USR|and the address please|request
 SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer

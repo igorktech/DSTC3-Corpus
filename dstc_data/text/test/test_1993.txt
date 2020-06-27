@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|yes im looking for a cafe food restaurant in the cheap price range|affirm
 SYS|Subway, which serves cafe food, is a great restaurant.|offer
 SYS|It's in the cheap price range.|offer
-USR|background noise|null
 SYS|Subway is an outstanding restaurant, it serves cafe food and it's in the cheap price range.|offer
 USR|can i have the address and postcode|request
 SYS|Subway is located on 40-42 Mill Road and it's in the area with the postcode CB1 2AD.|offer

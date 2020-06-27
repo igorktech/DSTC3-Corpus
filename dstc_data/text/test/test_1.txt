@@ -11,8 +11,7 @@ SYS|It's in the cheap price range.|offer
 USR|what is the phone number and price of the venue|request
 SYS|The phone number of All Bar One is 01223371081.|offer
 SYS|The price for main courses ranges from 7 pounds 95 to 12 pounds 95 and the price for a glass of wine ranges from 2 pounds 85 to 6 pounds 95.|offer
-USR|background noise|null
 SYS|All Bar One is an outstanding restaurant.|offer
-USR|what is the unintelligible of the venue|null
+USR|what is the <unk> of the venue|null
 SYS|The phone number of All Bar One is 01223371081.|offer
 USR|thank you good bye|bye

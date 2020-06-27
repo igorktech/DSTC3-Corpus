@@ -36,7 +36,6 @@ SYS|The Bakers, which allows children, is a great pub.|offer
 USR|ok which price range is it|ack
 SYS|The Bakers is in the cheap price range.|offer
 SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
-USR|noise|null
 SYS|The Bakers is a great pub.|offer
 SYS|The Bakers is a great pub.|offer
 SYS|The Bakers is an outstanding pub.|offer

@@ -29,18 +29,13 @@ USR|yes|affirm
 SYS|The Hotel du Vin is an outstanding restaurant.|offer
 SYS|It serves french food.|offer
 SYS|It's in the expensive price range.|offer
-USR|unintelligible|null
 SYS|The Hotel du Vin is an outstanding venue.|offer
 SYS|The price for main courses ranges from 17 pounds to 25 pounds.|offer
 USR|address|request
 SYS|The Hotel du Vin is on 15-19 Trumpington Street.|offer
-USR|unintelligible|null
 SYS|The Hotel du Vin is an outstanding restaurant.|offer
-USR|unintelligible|null
 SYS|The Hotel du Vin is an outstanding restaurant.|offer
-USR|unintelligible|null
 SYS|The Hotel du Vin is a great restaurant.|offer
-USR|unintelligible|null
 SYS|The Hotel du Vin is an outstanding restaurant, it serves french food and it's in the expensive price range.|offer
 USR|address|request
 SYS|The Hotel du Vin is located on 15-19 Trumpington Street.|offer

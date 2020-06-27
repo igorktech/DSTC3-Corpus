@@ -16,9 +16,7 @@ USR|could i have the address|request
 SYS|The Cambridge Blue is located on 24 Regent Street.|offer
 USR|phone number|request
 SYS|The phone number of the Cambridge Blue is 01223369222.|offer
-USR|unintelligible|null
 SYS|The Cambridge Blue is an outstanding cafe.|offer
-USR|unintelligible|null
 SYS|The Cambridge Blue is a great cafe.|offer
 USR|the postcode|request
 SYS|The Cambridge Blue is in the area with the postcode CB2 1DB.|offer

@@ -16,6 +16,5 @@ USR|children|inform
 SYS|There is no pub in the expensive price range.|canthelp
 USR|television|inform
 SYS|Can I help you with anything else?|reqmore
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 USR|thank you goodbye|bye

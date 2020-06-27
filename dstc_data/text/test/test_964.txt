@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|im ready|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|unintelligible|null
 SYS|The Bakers is a great pub.|offer
 USR|a pub moderately priced pub|inform
 SYS|The Bakers is located on 176 East Road.|offer

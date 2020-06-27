@@ -10,4 +10,4 @@ SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
 SYS|It's in the expensive price range.|offer
 USR|uh can i get a phone number please|request
 SYS|The phone number of Loch Fyne is 01223902103.|offer
-USR|breathing ok thank you goodbye|thankyou
+USR|<unk> ok thank you goodbye|thankyou

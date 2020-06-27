@@ -5,10 +5,8 @@ SYS|How may I help you?|welcomemsg
 USR|moderately priced restaurant new chesterton area|inform
 SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|noise|null
 SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|noise|null
 SYS|What type of food would you like?|request
 SYS|For example, Cafe food, or Italian.|request
 USR|address|request

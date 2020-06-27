@@ -9,7 +9,6 @@ SYS|The Bakers, which has an internet connection, is in the riverside part of to
 SYS|It's an outstanding pub.|offer
 USR|um what is the phone number and post code|request
 SYS|The phone number of The Bakers is 01223304121 and it's in the area with the postcode CB1 1BG.|offer
-USR|unintelligible|null
 SYS|The Bakers is an outstanding pub.|offer
 USR|what is the post code and phone number|request
 SYS|The phone number of The Bakers is 01223304121 and it's in the area with the postcode CB1 1BG.|offer

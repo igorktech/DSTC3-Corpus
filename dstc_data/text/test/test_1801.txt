@@ -2,13 +2,11 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|i am looking for an east asian restaurant and it should have moderate price range|inform
 SYS|Little Seoul, which serves east asian food, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|cough|null
 SYS|Little Seoul, which serves east asian food, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|ok can i have the address|ack

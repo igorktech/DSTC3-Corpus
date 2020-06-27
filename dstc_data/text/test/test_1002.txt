@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|Let me confirm.|expl-conf
 SYS|You are looking for a venue with no entrance fee.|expl-conf
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|no im looking for a continental re|negate
@@ -40,7 +38,6 @@ USR|expensive price range|inform
 SYS|Would you like an expensive price range, or you don't care?|select
 USR|expensive price range|inform
 SYS|Would you like an expensive price range, or you don't care?|select
-USR|unitelligible|null
 SYS|Would you like an expensive price range, or you don't care?|select
 USR|expensive price range|inform
 SYS|There is no restaurant in the Barnwell area and serving continental food.|canthelp

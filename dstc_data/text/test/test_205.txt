@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|area|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 USR|thank you good bye|bye

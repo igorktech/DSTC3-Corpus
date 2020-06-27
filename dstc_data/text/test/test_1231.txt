@@ -44,7 +44,6 @@ SYS|For example, something in the Cherry Hinton, Chesterton, or Fen Ditton area.
 USR|thank you bye|bye
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Chesterton, or Romsey area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Girton, or riverside area.|request
 USR|thank you and goodbye|bye

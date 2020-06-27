@@ -11,7 +11,6 @@ SYS|For example, something in the Arbury, King's Hedges, or Newnham area.|reques
 USR|dont care|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Gonville and Caius College, Queens' College, or Williams Art and Antiques.|request
-USR|unintelligible|null
 SYS|What type of food would you like?|request
 SYS|For example, Mexican and Tex Mex, Greek, or International.|request
 USR|no|negate

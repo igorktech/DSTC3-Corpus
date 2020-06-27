@@ -5,16 +5,15 @@ SYS|How may I help you?|welcomemsg
 USR|i am looking for a thai restaurant|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or free.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Fen Ditton area.|request
-USR|coughing moderate|inform
+USR|<unk> moderate|inform
 SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|moderate|inform
 SYS|Bangkok City, which serves thai food, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|um unintelligible|null
+USR|um <unk>|null
 SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|whats the phone number|request

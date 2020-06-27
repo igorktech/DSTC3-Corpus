@@ -10,7 +10,6 @@ USR|the address|request
 SYS|The Bakers is located on 176 East Road.|offer
 USR|and the phone number|request
 SYS|The phone number of The Bakers is 01223304121.|offer
-USR|background noise|null
 SYS|The Bakers is an outstanding pub.|offer
 USR|the phone number|request
 SYS|The phone number of The Bakers is 01223304121.|offer

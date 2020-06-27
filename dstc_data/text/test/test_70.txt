@@ -9,7 +9,6 @@ SYS|For example, All Saints Church, Cambridge Contemporary Art, or Corpus Christ
 USR|i am looking for a moderately priced restaurant and it should be in the|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Arbury, or Chesterton area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Newnham, riverside, or Romsey area.|request
 USR|im looking in the fenditton area|inform
@@ -21,7 +20,7 @@ SYS|For example, something in the Arbury, King's Hedges, or riverside area.|requ
 USR|im looking in the fenditton area|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Castle Hill, or Romsey area.|request
-USR|unintelligible in the fenditton area|inform
+USR|<unk> in the fenditton area|inform
 SYS|The Auntie's Tea Shop, which is in the Girton part of town, is a great cafe.|offer
 SYS|It's in the moderate price range.|offer
 USR|im looking for a moderately priced restaurant and it should be in the fenditton area|inform
@@ -29,6 +28,6 @@ SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding res
 SYS|It's in the moderate price range.|offer
 USR|what is the address and type of food|request
 SYS|The Rainbow Cafe is on 9a King's Parade.|offer
-USR|what type of food unintelligible|request
+USR|what type of food <unk>|request
 SYS|The Rainbow Cafe serves traditional and vegetarian food.|offer
 USR|thank you good bye|bye

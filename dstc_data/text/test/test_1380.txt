@@ -8,7 +8,6 @@ SYS|You are looking for a venue in the expensive price range.|expl-conf
 USR|yes|affirm
 SYS|What type of food would you like?|request
 SYS|For example, Italian, Mediterranean, or Traditional.|request
-USR|unintelligible sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Chinese, International, or Traditional.|request
 USR|sea food|inform

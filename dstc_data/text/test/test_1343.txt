@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
 USR|a restaurant|inform
@@ -19,7 +17,6 @@ SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
 USR|a restaurant|inform
 SYS|Are you looking for a cafe or a restaurant?|select
-USR|noise sil|null
 SYS|Are you looking for a cafe or a restaurant?|select
 USR|a restaurant|inform
 SYS|Are you looking for a cafe or a restaurant?|select
@@ -54,7 +51,7 @@ SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
 SYS|It's in the cheap price range.|offer
 USR|whats the phone number|request
 SYS|The phone number of Gourmet Burger  is 01223312598.|offer
-USR|yawn sil|null
+USR|yawn <unk>|null
 SYS|Gourmet Burger  is an outstanding restaurant.|offer
 USR|whats the phone number|request
 SYS|The phone number of Gourmet Burger  is 01223312598.|offer

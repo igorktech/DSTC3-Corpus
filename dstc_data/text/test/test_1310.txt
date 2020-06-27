@@ -2,10 +2,9 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise im looking for a restaurant in new chesterton|inform
+USR|<unk> i m looking for a restaurant in new chesterton|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Gallery at twelve A High Street, The Fitzwilliam Museum, or the Whipple Museum of the History of Science.|request
-USR|unintelligible sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Fastfood, or Spanish.|request
 USR|new chesterton|inform

@@ -2,12 +2,10 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, All Saints Church, Cafe Jello, or the People's Portraits Exhibition.|request
-USR|noise sil|null
 SYS|The Bakers is an outstanding pub.|offer
-USR|noise no i need a french restaruant|negate
+USR|<unk> no i need a french restaruant|negate
 SYS|There is no pub that is providing services for free.|canthelp
 USR|im looking for a french restaurant in the addensbrookes area|inform
 SYS|Can I help you with anything else?|reqmore

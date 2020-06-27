@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for a seafood restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Clare Hall, Magdalene College, or the People's Portraits Exhibition.|request
-USR|background noise|null
 SYS|Loch Fyne is a great restaurant and it serves seafood.|offer
 USR|is it expensive|confirm
 SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer

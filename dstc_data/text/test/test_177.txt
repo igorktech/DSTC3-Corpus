@@ -9,6 +9,6 @@ SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
 USR|it doesnt matter|inform
 SYS|The Baron of Beef allows children and it's an outstanding pub.|offer
-USR|breathing what is the address and phone number|request
+USR|<unk> what is the address and phone number|request
 SYS|The Baron of Beef is on Bridge Street and its phone number is 01223505022.|offer
 USR|thank you good bye|bye

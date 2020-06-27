@@ -2,10 +2,9 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unitelligible in order to get the|null
+USR|<unk> in order to get the|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Castle Hill, or Trumpington area.|request
-USR|unintelligible|null
 SYS|The Baron of Beef is an outstanding pub.|offer
 USR|it doesnt matter|inform
 SYS|Can I help you with anything else?|reqmore
@@ -25,7 +24,7 @@ USR|i need internet connection|inform
 SYS|The Bakers, which has an internet connection, is a great pub.|offer
 USR|find another pub|reqalts
 SYS|The Bakers, which has an internet connection, is a great pub.|offer
-USR|unintelligible do they allow children|request
+USR|<unk> do they allow children|request
 SYS|The Bakers, which allows children with an internet connection, is a great pub.|offer
 USR|do they allow children|request
 SYS|The Bakers allows children.|offer

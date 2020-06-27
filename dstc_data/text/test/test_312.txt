@@ -19,6 +19,6 @@ USR|indian|inform
 SYS|The Red Bull is an outstanding restaurant and it's in the Newnham part of town.|offer
 USR|address|request
 SYS|The Red Bull is an outstanding restaurant.|offer
-USR|breathing i am looking for a spanish restaurant|inform
+USR|<unk> i am looking for a spanish restaurant|inform
 SYS|There is no restaurant in the Newnham area and serving spanish food.|canthelp
 USR|thank you good bye|bye

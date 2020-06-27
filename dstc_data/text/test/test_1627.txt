@@ -26,11 +26,9 @@ USR|trumpington|inform
 SYS|Would you like a spanish food, or you don't care?|select
 USR|spanish|inform
 SYS|There is no restaurant in the Trumpington area and serving turkish food.|canthelp
-USR|breathing sil|null
 SYS|Would you like a trumpington area, or you don't care?|select
 USR|im looking for a spanish restaurant|inform
 SYS|Would you like a trumpington area, or you don't care?|select
-USR|unitelligible|null
 SYS|La Raza, which serves spanish food, is a great restaurant.|offer
 USR|what is the phone number|request
 SYS|The phone number of La Raza is 01223464550.|offer

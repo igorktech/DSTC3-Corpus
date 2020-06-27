@@ -5,7 +5,7 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for a cheap restaurant in the girton area|inform
 SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
 SYS|It's in the cheap price range.|offer
-USR|ok can you get me the phone number and the what type of food unintelligible|ack
+USR|ok can you get me the phone number and the what type of food <unk>|ack
 SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
 USR|what type of food do they serve|request
 SYS|The Dojo Noodle Bar serves fusion food.|offer

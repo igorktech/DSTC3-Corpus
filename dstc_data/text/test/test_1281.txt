@@ -8,13 +8,11 @@ SYS|For example, something in the Castle Hill, Newnham, or riverside area.|reque
 USR|it doesnt matter|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Artworks, the Technology Museum, or Milton Country Park.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Girton, or Trumpington area.|request
 USR|it doesnt matter|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Fen Ditton, or Newnham area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Chesterton, or Romsey area.|request
 USR|it doesnt matter|inform

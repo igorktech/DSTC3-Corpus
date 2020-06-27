@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|restaurant|inform
@@ -16,7 +15,6 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, central, or Fen Ditton area.|request
 USR|castle hill|inform
 SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
-USR|background noise|null
 SYS|The Agora, which serves turkish food, is a great restaurant.|offer
 USR|is it moderate price|confirm
 SYS|The Agora is in the expensive price range.|offer

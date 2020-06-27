@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unitelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or free.|request
 USR|im looking for a cheap restaurant in the cherry hinton area|inform
@@ -10,7 +9,6 @@ SYS|What type of food would you like?|request
 SYS|For example, Cafe food, French, or Seafood.|request
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cambridge Contemporary Art, the Museum of Archaelogy and Anthropology, or Saint Catharine's College.|request
-USR|unintelligible|null
 SYS|What type of food would you like?|request
 SYS|For example, Northern european, English, or Spanish.|request
 SYS|What type of food would you like?|request

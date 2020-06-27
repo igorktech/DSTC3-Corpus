@@ -7,7 +7,6 @@ SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or moderate.|request
 USR|doesnt matter north european|inform
 SYS|Polonia, which serves northern european food, is an outstanding restaurant.|offer
-USR|noise|null
 SYS|Polonia is a great restaurant and it serves northern european food.|offer
 USR|phone number|request
 SYS|The phone number of Polonia is 01223902138.|offer

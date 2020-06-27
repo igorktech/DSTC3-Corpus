@@ -7,10 +7,8 @@ SYS|For example, a cafe, a pub, or a restaurant.|request
 USR|restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, Cherry Hinton, or New Chesterton.|request
-USR|breathing sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Greek, Italian, or Japanese.|request
-USR|breathing sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Northern european, Continental, or Japanese.|request
 USR|american|inform
@@ -18,17 +16,15 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, central, or Girton area.|request
 USR|dont care|inform
 SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
-USR|breathing sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Great Saint Mary's Church, or King's College.|request
-USR|breathing sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Gallery at twelve A High Street, Gonville and Caius College, or the People's Portraits Exhibition.|request
 USR|no|negate
 SYS|Gourmet Burger  is an outstanding restaurant and it serves american food.|offer
 USR|cheap|inform
 SYS|Gourmet Burger  is an outstanding restaurant, it serves american food and it's in the cheap price range.|offer
-USR|breathing cheap|inform
+USR|<unk> cheap|inform
 SYS|Gourmet Burger  is a great restaurant.|offer
 SYS|It serves american food.|offer
 SYS|It's in the cheap price range.|offer

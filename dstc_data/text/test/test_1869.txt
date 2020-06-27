@@ -6,9 +6,7 @@ USR|yes im trying to find a fast food restaurant|affirm
 SYS|Would you like fastfood or X food?|select
 USR|any|inform
 SYS|Would you like fastfood or X food?|select
-USR|unintelligible|null
 SYS|Would you like fastfood or X food?|select
-USR|unintelligible|null
 SYS|Burger King is a great restaurant and it serves fastfood.|offer
 USR|whats the address|request
 SYS|Burger King is on The Grafton Centre.|offer

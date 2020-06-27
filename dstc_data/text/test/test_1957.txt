@@ -10,9 +10,7 @@ SYS|For example, a cafe, or a restaurant.|request
 USR|looking for a pub that allows children and has a television|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, Castle Hill, or riverside.|request
-USR|unintelligible|null
 SYS|The Bakers is a great pub.|offer
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 USR|does the bakers allow children|request
 SYS|Can I help you with anything else?|reqmore

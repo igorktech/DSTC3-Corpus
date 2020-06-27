@@ -15,7 +15,6 @@ SYS|What type of food would you like?|request
 SYS|For example, Fusion, or Vegetarian.|request
 USR|vegetarian|inform
 SYS|There is no restaurant serving vegetarian food that is providing services for free.|canthelp
-USR|unintelligible|null
 SYS|Would you like a free price range, or you don't care?|select
 USR|im looking for a free restaurant and it should be|inform
 SYS|There is no restaurant in the central area and serving vegetarian food.|canthelp

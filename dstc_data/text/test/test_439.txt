@@ -20,6 +20,5 @@ SYS|Saigon City is in the area with the postcode CB4 1NL.|offer
 USR|what is its telephone number|request
 SYS|The phone number of Saigon City is 01223356555.|offer
 SYS|Saigon City is an outstanding restaurant.|offer
-USR|breathing sil|null
 SYS|Would you like chinese or X food?|select
 USR|thank you good bye|bye

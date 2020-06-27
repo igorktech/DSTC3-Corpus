@@ -18,7 +18,6 @@ USR|no|negate
 SYS|The Sorrento is an outstanding restaurant, it serves italian food and it's in the expensive price range.|offer
 USR|id like to know the address phone number and type of food|request
 SYS|The Sorrento is on 196 Cherry Hinton Road and its phone number is 01223243533.|offer
-USR|unintelligible|null
 SYS|The phone number of The Sorrento is 01223243533.|offer
 USR|id like the address|request
 SYS|The Sorrento is on 196 Cherry Hinton Road.|offer

@@ -12,7 +12,6 @@ SYS|The phone number of Shiraz is 01223902104.|offer
 USR|can i have the price range|request
 SYS|Shiraz is a great venue.|offer
 SYS|The price for main courses ranges from 9 pounds to 14 pounds 15.|offer
-USR|background noise|null
 SYS|Shiraz is an outstanding restaurant, it serves east asian food and it's in the expensive price range.|offer
 USR|can i have the price venue|request
 SYS|Shiraz is an outstanding venue.|offer

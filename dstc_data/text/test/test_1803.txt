@@ -5,12 +5,11 @@ SYS|How may I help you?|welcomemsg
 USR|id like to find a thai restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Girton, or New Chesterton area.|request
-USR|unintelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the People's Portraits Exhibition, Queens' College, or Williams Art and Antiques.|request
 USR|i dont care|inform
 SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
-USR|no unintelligible|negate
+USR|no <unk>|negate
 SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
 USR|no i do not care|negate
 SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer

@@ -14,6 +14,5 @@ USR|and the address|request
 SYS|Carringtons is located on 23 Market Street.|offer
 USR|in what area|request
 SYS|Carringtons is in the central part of town.|offer
-USR|breathing thank you goo|thankyou
+USR|<unk> thank you goo|thankyou
 SYS|Can I help you with anything else?|reqmore
-USR|unintelligible|null

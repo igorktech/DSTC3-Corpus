@@ -12,7 +12,6 @@ USR|anything|inform
 SYS|Sitar Tandoori is an outstanding restaurant and it's in the Cherry Hinton part of town.|offer
 USR|ok can i get the phone number and address|ack
 SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton and its phone number is 01223249955.|offer
-USR|clicking sil|null
 SYS|Sitar Tandoori is a great restaurant.|offer
 USR|yes can i get the phone number and address|request
 SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton and its phone number is 01223249955.|offer

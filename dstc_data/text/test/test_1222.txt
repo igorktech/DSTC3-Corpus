@@ -54,7 +54,6 @@ SYS|What type of food would you like?|request
 SYS|For example, Chinese, Fastfood, or Greek.|request
 USR|fast food|inform
 SYS|There is no restaurant in the central area and serving fastfood.|canthelp
-USR|background noise|null
 SYS|Would you like a central area, or you don't care?|select
 USR|what about mediterranean|reqalts
 SYS|Would you like a central area, or you don't care?|select

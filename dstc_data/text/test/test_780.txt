@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|i need a restaurant in addonbrookes|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, free, or moderate.|request
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, free.|request
 USR|cheap|inform
@@ -14,7 +13,6 @@ SYS|For example, free, or moderate.|request
 USR|cheap|inform
 SYS|What type of food would you like?|request
 SYS|For example, American, Chinese, or Italian.|request
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, central, or Romsey.|request
 USR|cheap|inform
@@ -41,10 +39,9 @@ SYS|For example, Drinks and snacks only, or Continental.|request
 USR|any|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Fen Ditton, or Girton area.|request
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Newnham, or Trumpington area.|request
-USR|unintelligible addonbrookes|inform
+USR|<unk> addonbrookes|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Barnwell, or Trumpington area.|request
 USR|addonbrookes area|inform

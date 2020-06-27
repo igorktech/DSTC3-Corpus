@@ -38,7 +38,6 @@ USR|what is the address|request
 SYS|The Peking Restaurant is located on Unit 3, The Belvedere, Homerton Street.|offer
 USR|what is the phone number|request
 SYS|The phone number of the Peking Restaurant is 01223902166.|offer
-USR|background noise|null
 SYS|The Peking Restaurant is an outstanding restaurant.|offer
 USR|what is the phone number|request
 SYS|The phone number of the Peking Restaurant is 01223902166.|offer

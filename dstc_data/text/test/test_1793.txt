@@ -7,4 +7,3 @@ SYS|The Dojo Noodle Bar is a great restaurant, it's in the Girton part of town a
 USR|phone number and postcode|request
 SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
 SYS|It's in the area with the postcode CB2 1RQ.|offer
-USR|unintelligible|null

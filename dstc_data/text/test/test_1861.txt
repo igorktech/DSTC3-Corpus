@@ -11,6 +11,5 @@ USR|the address please|request
 SYS|Carringtons is on 23 Market Street.|offer
 USR|the phone number please|request
 SYS|The phone number of Carringtons is 01223361792.|offer
-USR|noise sil|null
 SYS|Carringtons is an outstanding restaurant.|offer
 USR|thank you and good bye|bye

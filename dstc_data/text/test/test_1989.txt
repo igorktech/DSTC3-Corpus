@@ -2,28 +2,23 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|unintelligible sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|unintelligible cherry hinton|inform
+USR|<unk> cherry hinton|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
 USR|dont care cherry hinton area|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
 USR|dont care|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|noise sil|null
 SYS|There is no cafe in the Cherry Hinton area.|canthelp
 USR|dont care|inform
 SYS|Are you looking for somewhere near a particular venue?|request

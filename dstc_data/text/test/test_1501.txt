@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a restaurant.|request
-USR|noise sil|null
 SYS|Can I help you with anything else?|reqmore
 USR|im looking for a moderatly priced|null
 SYS|What kind of venue are you looking for?|request
@@ -22,13 +20,11 @@ SYS|Carringtons, which is in the moderate price range, is a great cafe.|offer
 SYS|It's an outstanding restaurant.|offer
 USR|is that a coffee shop|confirm
 SYS|Carringtons is an outstanding cafe and it's a great restaurant.|offer
-USR|noise what is the phone number|request
+USR|<unk> what is the phone number|request
 SYS|The phone number of Carringtons is 01223361792.|offer
-USR|nosie sil|null
 SYS|Carringtons is a great restaurant.|offer
 USR|what is the phone number|request
 SYS|The phone number of Carringtons is 01223361792.|offer
-USR|noise sil|null
 SYS|Carringtons is a great restaurant.|offer
 USR|what is the phone number|request
 SYS|The phone number of Carringtons is 01223361792.|offer

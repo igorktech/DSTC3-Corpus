@@ -7,7 +7,6 @@ SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.
 SYS|It's in the moderate price range.|offer
 USR|let me have the phone number please|request
 SYS|The phone number of Twenty-four is 01223395800.|offer
-USR|breathing|null
 SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|may i have the address please|request

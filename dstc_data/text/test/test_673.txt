@@ -13,6 +13,5 @@ USR|ok uh does it have internet|ack
 SYS|The Baron of Beef doesn't have any internet connection.|offer
 USR|ok uh can you please tell me what the address of the pub|ack
 SYS|The Baron of Beef is located on Bridge Street.|offer
-USR|background noise|null
 SYS|The Baron of Beef has a television and it's an outstanding pub.|offer
 USR|ok thank you good bye|ack

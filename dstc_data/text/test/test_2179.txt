@@ -13,7 +13,6 @@ SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
 SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
 SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
 SYS|Loch Fyne is a great restaurant and it serves seafood.|offer
-USR|unintelligible|null
 SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
 USR|can you give me the address phone number and price please|request
 SYS|Loch Fyne is on 37 Trumpington Street and its phone number is 01223902103.|offer

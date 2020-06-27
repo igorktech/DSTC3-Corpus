@@ -11,7 +11,7 @@ USR|is there something in the girton area|inform
 SYS|La Raza is in the central part of town.|offer
 USR|what is the area|request
 SYS|La Raza is in the central part of town.|offer
-USR|can i unintelligible|null
+USR|can i <unk>|null
 SYS|La Raza is a great restaurant.|offer
 USR|im looking for a cheap restaurant in the girton area|inform
 SYS|The Dojo Noodle Bar is a great restaurant and it's in the Girton part of town.|offer

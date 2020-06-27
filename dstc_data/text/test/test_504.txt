@@ -14,7 +14,7 @@ USR|oh kay|ack
 SYS|Can I help you with anything else?|reqmore
 USR|which kind of food do they serve|request
 SYS|Hakka serves chinese food and its phone number is 01223568988.|offer
-USR|ok unintelligible|ack
+USR|ok <unk>|ack
 SYS|Can I help you with anything else?|reqmore
 USR|mexican food there too|inform
 SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp

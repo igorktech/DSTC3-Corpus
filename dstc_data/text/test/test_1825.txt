@@ -11,7 +11,7 @@ SYS|For example, Emmanuel College, Milton Country Park, or the People's Portrait
 USR|no|negate
 SYS|Bangkok City, which serves thai food, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|unintelligible phone number|request
+USR|<unk> phone number|request
 SYS|The phone number of Bangkok City is 01223354382.|offer
 USR|address|request
 SYS|Bangkok City is on 24 Green Street.|offer

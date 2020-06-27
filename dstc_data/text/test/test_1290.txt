@@ -10,9 +10,7 @@ SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or expensive.|request
 USR|price range no price range|request
 SYS|Would you like turkish or X food?|select
-USR|noise sil|null
 SYS|Would you like turkish or X food?|select
-USR|nosie sil|null
 SYS|Would you like turkish or X food?|select
 USR|turkish food|inform
 SYS|What kind of price range are you looking for?|request
@@ -33,14 +31,12 @@ USR|dont care|inform
 SYS|Would you like a turkish food, or you don't care?|select
 USR|turkish food|inform
 SYS|Would you like a cheap price range, or you don't care?|select
-USR|dont care breathing|inform
+USR|do nt care <unk>|inform
 SYS|Would you like a cheap price range, or you don't care?|select
-USR|breathing sil|null
 SYS|Would you like a cheap price range, or you don't care?|select
-USR|dont care clicking|inform
+USR|do nt care <unk>|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Churchill College, the People's Portraits Exhibition, or Trinity College.|request
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Botanic Garden, Great Saint Mary's Church, or The Fitzwilliam Museum.|request
 USR|no|negate
@@ -52,7 +48,7 @@ USR|no|negate
 SYS|The Agora is an outstanding restaurant and it serves turkish food.|offer
 USR|can i have the address|request
 SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
-USR|noise i need the address and the post co|request
+USR|<unk> i need the address and the post co|request
 SYS|The Agora, which is in the area with the postcode CB2 1SJ, is on 4 King's Parade.|offer
 USR|i need the address|request
 SYS|The Agora is located on 4 King's Parade.|offer

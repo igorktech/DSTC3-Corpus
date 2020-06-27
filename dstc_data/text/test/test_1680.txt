@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|i need a restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Emmanuel College, Trinity College, or Wandlebury Country Park.|request
-USR|noise|null
 SYS|What type of food would you like?|request
 SYS|For example, Continental, Seafood, or Traditional.|request
 USR|im looking for a a restaurant in the addenbrookes area|inform

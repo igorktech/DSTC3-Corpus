@@ -26,7 +26,6 @@ SYS|For example, Churchill College, Kettle's Yard, or Little Saint Mary's.|reque
 USR|fenditton|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Michaelhouse Centre, the Museum of Archaelogy and Anthropology, or the Ruskin Gallery.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, King's Hedges, or Newnham area.|request
 USR|fenditton area|inform

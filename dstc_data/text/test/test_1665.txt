@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|breathing|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 SYS|What kind of venue are you looking for?|request
@@ -21,7 +20,6 @@ USR|postal code|request
 SYS|The Red Bull is in the area with the postcode CB3 9JZ.|offer
 USR|phone number|request
 SYS|The phone number of The Red Bull is 01223902124.|offer
-USR|breathing|null
 SYS|The Red Bull is an outstanding restaurant.|offer
 USR|phone number|request
 SYS|The phone number of The Red Bull is 01223902124.|offer

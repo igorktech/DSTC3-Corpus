@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for a moderately priced restaurant in the addonsbrookes area|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, central, or Fen Ditton.|request
-USR|coughing sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Chesterton, or King's Hedges area.|request
 USR|in the addonsbrookes area|inform

@@ -19,12 +19,10 @@ SYS|For example, Milton Country Park, The Fitzwilliam Museum, or Trinity College
 USR|uh ch expensive|inform
 SYS|What type of food would you like?|request
 SYS|For example, Cafe food, Chinese, or Italian.|request
-USR|unintelligible|null
 SYS|What type of food would you like?|request
 SYS|For example, Indian, Mediterranean, or Traditional.|request
 USR|chinese food|inform
 SYS|There is no restaurant serving chinese food that is providing services for free.|canthelp
-USR|unintelligible|null
 SYS|There is no restaurant serving chinese food that is providing services for free.|canthelp
 USR|uh|null
 SYS|Would you like a free price range, or you don't care?|select

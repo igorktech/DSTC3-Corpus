@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for a cafe food restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, central, or Fen Ditton area.|request
-USR|breathing sil|null
 SYS|Carringtons is a great cafe, it serves cafe food, it serves english food and it's an outstanding restaurant.|offer
 USR|does it have a cheap price range|confirm
 SYS|Carringtons is an outstanding venue.|offer

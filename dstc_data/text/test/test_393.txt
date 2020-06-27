@@ -29,7 +29,6 @@ SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cambridge Contemporary Art, Jesus College, or the Saint Barnabas Press Gallery.|request
 USR|yes im looking for a particular place|affirm
 SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
-USR|unintelligible|null
 SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
 USR|yes|affirm
 SYS|Blue Spice is a great restaurant.|offer

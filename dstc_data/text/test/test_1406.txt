@@ -11,7 +11,6 @@ SYS|For example, cheap, or expensive.|request
 USR|i dont care|inform
 SYS|What type of food would you like?|request
 SYS|For example, Northern european, pub, or Indian.|request
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Great Saint Mary's Church, Trinity College, or Wandlebury Country Park.|request
 USR|i dont care|inform

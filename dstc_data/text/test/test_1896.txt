@@ -9,7 +9,6 @@ SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Milton Country Park, the Museum of Classical Archaeology, or the Scott Polar Museum.|request
 USR|dont care|inform
 SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
-USR|breathing sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
 USR|dont care|inform

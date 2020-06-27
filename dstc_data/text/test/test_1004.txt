@@ -15,7 +15,7 @@ USR|i dont care|inform
 SYS|Would you like a moderate price range, or you don't care?|select
 USR|moderately priced range|inform
 SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
-USR|can i please have unintelligible of the venue|null
+USR|can i please have <unk> of the venue|null
 SYS|Caffe Uno is located on 32 Bridge Street.|offer
 SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
 USR|thank you good bye|bye

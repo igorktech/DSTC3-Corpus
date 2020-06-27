@@ -12,6 +12,6 @@ SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy and its phone number is
 SYS|The Wheatsheaf is an outstanding restaurant.|offer
 USR|ok ah what types of food|ack
 SYS|The Wheatsheaf serves traditional food.|offer
-USR|ok what type of food unitelligible|ack
+USR|ok what type of food <unk>|ack
 SYS|The Wheatsheaf serves traditional food.|offer
 USR|ok thank you good bye|ack

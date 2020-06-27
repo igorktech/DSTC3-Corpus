@@ -5,7 +5,7 @@ SYS|How may I help you?|welcomemsg
 USR|ya hi ah i am looking for a moderately priced restaurant located in the kings hedges area|hello
 SYS|The Ranch, which is in the King's Hedges part of town, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|noise can i have the address and the phone number and the type of food that is served|request
+USR|<unk> can i have the address and the phone number and the type of food that is served|request
 SYS|The phone number of the Ranch is 01223322772.|offer
 USR|ah the type of food that is served|request
 SYS|The Ranch is an outstanding restaurant.|offer

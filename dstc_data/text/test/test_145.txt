@@ -4,7 +4,6 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 USR|im looking for a moderately priced restaurant in new chesterton|inform
 SYS|Hakka is a great restaurant, it's in the New Chesterton part of town and it's in the moderate price range.|offer
-USR|background noise|null
 SYS|Hakka is a great restaurant.|offer
 SYS|It's in the New Chesterton part of town.|offer
 SYS|It's in the moderate price range.|offer

@@ -13,6 +13,9 @@ archive_dir = 'dstc_archive'
 # Processed data directory
 data_dir = os.path.join('dstc_data', 'json')
 
+remove_words = ['sil', 'unitelligible', 'unintelligible', 'background', 'noise', 'nosie', 'cough', 'coughing',
+                'laughing', 'breathing', 'click', 'clicking', 'knock', 'knocking', 'system', 'dog', 'barking',
+                'whisper', 'throat', 'clear', 'clearing', 'throatnoise', 'whisperingunintelligible']
 sets = ['train', 'test']
 # Create a temporary directory and unzip the archived data
 with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
@@ -84,27 +87,40 @@ with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
                 for sent in usr_utts.sents:
                     utterance = dict()
 
-                    # Set speaker
-                    utterance['speaker'] = "USR"
+                    # Do not keep silence, background noise etc in utterances, else keep all text
+                    if any(token.text in remove_words for token in sent):
+                        # Replace with <unk> token
+                        text = [token.text if not token.text in remove_words else '<unk>' for token in sent]
 
-                    # Do not keep silence utterances
-                    if sent.text != 'sil' and sent.text != 'system sil':
-                        # Set the utterance text
-                        utterance['text'] = sent.text
+                        # Ignore if only <unk> tokens left
+                        if all(token == '<unk>' for token in text):
+                            text = None
+                        else:
+                            text = " ".join(text)
                     else:
+                        text = sent.text
+
+                    # If there is no text (because it was removed) don't make an utterance, else set speaker, text etc
+                    if not text:
                         continue
-
-                    # Set ap labels to empty and da label if it exists
-                    utterance['ap_label'] = ""
-
-                    if usr_turn['semantics']['json']:
-                        utterance['da_label'] = usr_turn['semantics']['json'][0]['act']
                     else:
-                        utterance['da_label'] = "null"
+                        # Set speaker
+                        utterance['speaker'] = "USR"
 
-                    # Add to utterances
-                    num_utterances += 1
-                    utterances.append(utterance)
+                        # Set utterance text
+                        utterance['text'] = text
+
+                        # Set ap labels to empty and da label if it exists
+                        utterance['ap_label'] = ""
+
+                        if usr_turn['semantics']['json']:
+                            utterance['da_label'] = usr_turn['semantics']['json'][0]['act']
+                        else:
+                            utterance['da_label'] = "null"
+
+                        # Add to utterances
+                        num_utterances += 1
+                        utterances.append(utterance)
 
             # Create dialogue
             dialogue['dialogue_id'] = dataset_name + '_' + str(num_dialogues + 1)

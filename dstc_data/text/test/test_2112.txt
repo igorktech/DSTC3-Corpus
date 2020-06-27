@@ -2,9 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|system|null
 SYS|Are you looking for a venue with a television?|request
-USR|system|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
 USR|no for pub food|negate
@@ -15,9 +13,7 @@ USR|no|negate
 SYS|Are you looking for a venue with an internet connection?|request
 USR|no|negate
 SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
-USR|system|null
 SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
-USR|system|null
 SYS|The Baron of Beef is an outstanding pub and it's in the cheap price range.|offer
 USR|thank you goodbye|bye
 SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer

@@ -4,7 +4,6 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe.|request
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 USR|im looking for a restaurant im looking for restaurant in the newnham area|inform
 SYS|Are you looking for somewhere near a particular venue?|request

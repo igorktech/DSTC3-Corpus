@@ -4,20 +4,16 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 USR|contemporary restaurant it should be free|inform
 SYS|The Michaelhouse Centre is a great restaurant, it serves contemporary food and it doesn't charge any entrance fee.|offer
-USR|background noise|null
 SYS|The Michaelhouse Centre is a great restaurant.|offer
 SYS|It serves contemporary food.|offer
 SYS|It doesn't charge any entrance fee.|offer
-USR|background noise|null
 SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
 SYS|It doesn't charge any entrance fee.|offer
-USR|background noise|null
 SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
 SYS|It doesn't charge any entrance fee.|offer
-USR|background noise free|inform
+USR|<unk> <unk> free|inform
 SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
 SYS|It doesn't charge any entrance fee.|offer
-USR|background noise|null
 SYS|The Michaelhouse Centre, which serves contemporary food, is a great restaurant.|offer
 SYS|It doesn't charge any entrance fee.|offer
 USR|address|request

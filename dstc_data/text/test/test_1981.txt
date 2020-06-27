@@ -2,7 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|coughing turkish restaurant please|inform
+USR|<unk> turkish restaurant please|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, King's Hedges, or riverside area.|request
 USR|sitter cindy ar city area|null

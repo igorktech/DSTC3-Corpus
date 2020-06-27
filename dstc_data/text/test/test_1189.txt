@@ -12,7 +12,6 @@ SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe.|request
 USR|greek|inform
 SYS|Are you looking for a cafe or a restaurant?|select
-USR|unintelligible|null
 SYS|Are you looking for a cafe or a restaurant?|select
 USR|uh restaurant|inform
 SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer

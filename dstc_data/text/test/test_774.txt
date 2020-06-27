@@ -11,18 +11,16 @@ SYS|There is no pub in the Romsey area.|canthelp
 USR|ok uhm near by near romsey|ack
 SYS|There is no pub in the Romsey area.|canthelp
 SYS|Would you like a romsey area, or you don't care?|select
-USR|unintelligible|null
 SYS|Would you like a romsey area, or you don't care?|select
 USR|i dont care|inform
 SYS|The Bakers is an outstanding pub.|offer
-USR|clicking romsey area|inform
+USR|<unk> romsey area|inform
 SYS|The Bakers is in the riverside part of town.|offer
-USR|how close is river side to romsey is river side near romsey clicking|inform
+USR|how close is river side to romsey is river side near romsey <unk>|inform
 SYS|The Bakers, which is in the riverside part of town, is a great pub.|offer
 SYS|It's in the cheap price range.|offer
-USR|clicking sil|null
 SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
-USR|unintelligible whats the address fuck this fuck it whats the address|request
+USR|<unk> what s the address fuck this fuck it what s the address|request
 SYS|The Bakers is on 176 East Road.|offer
 USR|whats the phone number|request
 SYS|The phone number of The Bakers is 01223304121.|offer

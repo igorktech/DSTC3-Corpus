@@ -2,13 +2,10 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|northern european restaurant|inform
@@ -16,10 +13,7 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, New Chesterton, or Trumpington area.|request
 USR|northern european restaurant|inform
 SYS|Polonia is an outstanding restaurant and it serves northern european food.|offer
-USR|background noise|null
 SYS|Polonia, which serves northern european food, is a great restaurant.|offer
-USR|unintelligible|null
 SYS|Polonia is a great restaurant and it serves northern european food.|offer
-USR|background noise|null
 SYS|Polonia, which serves northern european food, is a great restaurant.|offer
 USR|thank you good bye|bye

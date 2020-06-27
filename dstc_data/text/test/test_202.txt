@@ -8,7 +8,6 @@ SYS|For example, East asian, Fusion, or Mediterranean.|request
 USR|mediterranean|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, Newnham, or Romsey area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Fen Ditton, or Newnham.|request
 USR|adden|null

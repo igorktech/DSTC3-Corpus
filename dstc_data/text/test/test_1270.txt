@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Christ's College, Queens' College, or the Regency Gallery.|request
-USR|background noise|null
 SYS|Are you looking for a venue with a television?|request
 USR|new chesterton area|inform
 SYS|There is no pub in the Chesterton area.|canthelp
@@ -39,7 +37,6 @@ SYS|The Agora is a great restaurant.|offer
 SYS|Would you like a turkish food, or you don't care?|select
 USR|new ch|null
 SYS|The Agora is an outstanding restaurant.|offer
-USR|unintelligible|null
 SYS|The Agora is an outstanding restaurant.|offer
 USR|new chesterton area restaurant food|inform
 SYS|There is no restaurant in the New Chesterton area and serving turkish food.|canthelp

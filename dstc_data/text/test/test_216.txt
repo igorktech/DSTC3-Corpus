@@ -11,6 +11,5 @@ USR|phone number|request
 SYS|The phone number of The Red Bull is 01223902124.|offer
 USR|postcode|request
 SYS|The Red Bull is in the area with the postcode CB3 9JZ.|offer
-USR|background noise|null
 SYS|The Red Bull is an outstanding restaurant.|offer
 USR|thank you good bye|bye

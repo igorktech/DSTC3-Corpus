@@ -2,22 +2,17 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
 USR|thai restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Folk Museum, Kettle's Yard, or the Michaelhouse Centre.|request
-USR|background noise|null
 SYS|What type of food would you like?|request
 SYS|For example, East asian, or Italian.|request
-USR|background noise|null
 SYS|What type of food would you like?|request
 SYS|For example, Mexican and Tex Mex, Chinese, or Mediterranean.|request
-USR|background noise|null
 SYS|What type of food would you like?|request
 SYS|For example, East asian, pub, or Fusion.|request
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Barnwell, or Newnham area.|request
 USR|thai|inform

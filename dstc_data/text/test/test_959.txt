@@ -2,7 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible moderately priced|inform
+USR|<unk> moderately priced|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or moderate.|request
 USR|moderate|inform
@@ -17,13 +17,11 @@ SYS|For example, something in the Arbury, New Chesterton, or Trumpington area.|r
 USR|restaurant|inform
 SYS|What type of food would you like?|request
 SYS|For example, Fastfood, Seafood, or Turkish.|request
-USR|unintelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cherry Hinton Water Play, Holy Trinity Church, or Primavera.|request
 USR|new chesterton|inform
 SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|unintelligible|null
 SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|address|request

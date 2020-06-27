@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unitelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Kettle's Yard, Old Schools, or the Ruskin Gallery.|request
 USR|an expensive restaurant and it should be in the castle hill area|inform

@@ -6,7 +6,6 @@ USR|im looking for a cheap|inform
 SYS|Are you looking for a pub or a restaurant?|select
 USR|pub|inform
 SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
-USR|unintelligible|null
 SYS|The Bakers is a great pub and it's in the cheap price range.|offer
 USR|can i get the phone number and the postcode|request
 SYS|The phone number of The Bakers is 01223304121.|offer

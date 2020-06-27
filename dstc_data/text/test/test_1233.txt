@@ -11,7 +11,6 @@ SYS|For example, Christ's College, Hughes Hall, or Wandlebury Country Park.|requ
 USR|ch cheap|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Artworks, Cherry Hinton Water Play, or Hughes Hall.|request
-USR|noise|null
 SYS|What type of food would you like?|request
 SYS|For example, Continental, Greek, or Middleeastern.|request
 USR|castlehill|inform
@@ -23,9 +22,8 @@ SYS|For example, Chinese take away, East asian, or English.|request
 USR|caastlehill|inform
 SYS|What type of food would you like?|request
 SYS|For example, Drinks and snacks only, American, or Turkish.|request
-USR|unintelligible english|inform
+USR|<unk> english|inform
 SYS|There is no restaurant serving english food in the cheap price range.|canthelp
-USR|unintelligible|null
 SYS|Would you like an english food, or you don't care?|select
 USR|english|inform
 SYS|Would you like a cheap price range, or you don't care?|select

@@ -17,7 +17,6 @@ SYS|For example, something in the Barnwell, Cherry Hinton, or Romsey area.|reque
 USR|i am looking for an english restaurant i do not care about the price range|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, Girton, or King's Hedges.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Cherry Hinton, or Newnham area.|request
 USR|can i|null
@@ -32,10 +31,10 @@ SYS|For example, something in the Barnwell, central, or New Chesterton area.|req
 USR|i am looking for|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, central, or King's Hedges area.|request
-USR|i am looking unintelligible|null
+USR|i am looking <unk>|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, King's Hedges, or New Chesterton.|request
-USR|k unintelligible|null
+USR|k <unk>|null
 SYS|Can I help you with anything else?|reqmore
 USR|kings hedges|inform
 SYS|Can I help you with anything else?|reqmore

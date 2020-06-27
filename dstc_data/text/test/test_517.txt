@@ -16,7 +16,7 @@ USR|tv|inform
 SYS|The Bakers, which has an internet connection and a television, is an outstanding pub.|offer
 USR|no i dont care|negate
 SYS|The Bakers is the only pub with an internet connection and with a television.|canthelp
-USR|cough does it have|null
+USR|<unk> does it have|null
 SYS|The Bakers is the only pub with an internet connection and with a television.|canthelp
 USR|okay does it have tv|request
 SYS|The Bakers has a television.|offer

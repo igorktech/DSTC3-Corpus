@@ -20,7 +20,6 @@ SYS|What type of food would you like?|request
 SYS|For example, pub, Chinese, or Thai.|request
 USR|sorry|null
 SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
 USR|moderate|inform

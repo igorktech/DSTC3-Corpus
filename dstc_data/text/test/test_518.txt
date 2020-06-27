@@ -10,7 +10,6 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Castle Hill, or Chesterton area.|request
 USR|oh a moderate price range|inform
 SYS|There is no restaurant serving fastfood in the moderate price range.|canthelp
-USR|background noise|null
 SYS|Can I help you with anything else?|reqmore
 USR|ok what about the hi|null
 SYS|Burger King, which serves fastfood, is a great restaurant.|offer

@@ -20,6 +20,5 @@ SYS|Let me confirm.|expl-conf
 SYS|You are looking for a venue with an internet connection.|expl-conf
 USR|thank you and have a good day|bye
 SYS|Are you looking for a pub or a restaurant?|select
-USR|noise|null
 SYS|Are you looking for a pub or a restaurant?|select
 USR|thank you and have a good day|bye

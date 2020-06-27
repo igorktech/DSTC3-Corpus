@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a restaurant.|request
-USR|background noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, free, or moderate.|request
 USR|im looking for an interna|null
@@ -20,7 +18,6 @@ USR|what is the phone number|request
 SYS|The phone number of Giraffe is 01223300707.|offer
 USR|phone number p|request
 SYS|The phone number of Giraffe is 01223300707.|offer
-USR|cough|null
 SYS|Giraffe is an outstanding restaurant.|offer
 USR|postcode please|request
 SYS|Giraffe is in the area with the postcode CB1 1NP.|offer

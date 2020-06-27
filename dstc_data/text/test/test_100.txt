@@ -20,7 +20,7 @@ USR|dont care|inform
 SYS|Would you like a cheap price range, or you don't care?|select
 USR|yes|affirm
 SYS|Would you like a cheap price range, or you don't care?|select
-USR|noise cheap price|request
+USR|<unk> cheap price|request
 SYS|What type of food would you like?|request
 SYS|For example, Mexican and Tex Mex, Indian, or Middleeastern.|request
 USR|yes|affirm

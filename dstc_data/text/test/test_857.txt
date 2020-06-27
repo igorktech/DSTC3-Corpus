@@ -7,9 +7,7 @@ SYS|Al Casbah, which is in the Romsey part of town, is an outstanding restaurant
 SYS|It serves mediterranean and middleeastern food.|offer
 USR|what is the address|request
 SYS|Al Casbah is on 62 Mill Road.|offer
-USR|breathing|null
 SYS|Al Casbah is a great restaurant.|offer
-USR|breathing|null
 SYS|Al Casbah is an outstanding restaurant.|offer
 USR|what is the address and phone number|request
 SYS|Al Casbah is on 62 Mill Road and its phone number is 01223579500.|offer

@@ -9,7 +9,6 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Cherry Hinton, or Chesterton area.|request
 USR|in cherry hinton|inform
 SYS|There is no restaurant in the Cherry Hinton area and serving vegetarian food.|canthelp
-USR|unintelligible|null
 SYS|Twenty-four is a great restaurant and it's in the Chesterton part of town.|offer
 USR|area|null
 SYS|Twenty-four is a great restaurant and it's in the Chesterton part of town.|offer

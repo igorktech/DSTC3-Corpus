@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
 USR|restaurant|inform
@@ -27,7 +26,6 @@ USR|yes|affirm
 SYS|There is no restaurant in the Girton area and serving english food.|canthelp
 USR|yes that is correct|affirm
 SYS|There is no restaurant in the Girton area and serving english food.|canthelp
-USR|unintelligible|null
 SYS|Would you like a girton area, or you don't care?|select
 USR|ok um american food|ack
 SYS|Would you like a girton area, or you don't care?|select

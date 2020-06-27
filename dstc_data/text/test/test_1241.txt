@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|yes i would like to find a an expensive restaurant in the addenbrookes area|affirm
 SYS|What type of food would you like?|request
 SYS|For example, Chinese, Greek, or Indian.|request
-USR|unintelligible|null
 SYS|There is no restaurant in the Addenbrooke's area and serving greek food.|canthelp
 USR|anything|inform
 SYS|Would you like an addenbrooke's area, or you don't care?|select

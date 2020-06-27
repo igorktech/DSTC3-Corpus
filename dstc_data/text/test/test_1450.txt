@@ -6,7 +6,6 @@ USR|looking for a pub that has an internet connection and allows children|inform
 SYS|The Bakers, which allows children with an internet connection, is an outstanding pub.|offer
 USR|what is the address and area|request
 SYS|The Bakers is located on 176 East Road.|offer
-USR|background noise|null
 SYS|The Bakers is an outstanding pub.|offer
 USR|what is the area|request
 SYS|The Bakers is in the riverside part of town.|offer

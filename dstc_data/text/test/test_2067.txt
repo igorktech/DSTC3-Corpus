@@ -8,4 +8,4 @@ USR|what is the phone number|request
 SYS|The phone number of Giraffe is 01223300707.|offer
 USR|what area is it in|request
 SYS|Giraffe is in the central part of town.|offer
-USR|knocking thank you goodbye|bye
+USR|<unk> thank you goodbye|bye

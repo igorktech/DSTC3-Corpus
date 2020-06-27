@@ -4,10 +4,9 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|noise restaurant|inform
+USR|<unk> restaurant|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or moderate.|request
 USR|expensive restaurant|inform
@@ -27,7 +26,7 @@ SYS|For example, something in the Castle Hill, Girton, or Newnham area.|request
 USR|addonbrookes|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Girton, or Newnham area.|request
-USR|noise addonbrookes area|inform
+USR|<unk> addonbrookes area|inform
 SYS|The Lucky Star, which is in the Addenbrooke's part of town, is a great restaurant.|offer
 SYS|It's in the expensive price range.|offer
 USR|addonbrookes|inform
@@ -37,7 +36,6 @@ USR|i need the address|request
 SYS|The Lucky Star is on Unit.|offer
 USR|addonbookes|inform
 SYS|The Lucky Star is an outstanding restaurant.|offer
-USR|noise sil|null
 SYS|The Lucky Star is an outstanding restaurant.|offer
 USR|i need th|null
 SYS|The Lucky Star is an outstanding restaurant.|offer

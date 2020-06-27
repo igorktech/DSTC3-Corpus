@@ -32,7 +32,6 @@ SYS|For example, Chinese, Contemporary, or Italian.|request
 USR|contemporary|inform
 SYS|What type of food would you like?|request
 SYS|For example, Drinks and snacks only, Northern european, or Contemporary.|request
-USR|cough|null
 SYS|What type of food would you like?|request
 SYS|For example, Continental, Italian, or Thai.|request
 USR|contemporary|inform

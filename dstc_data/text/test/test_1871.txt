@@ -2,17 +2,14 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
-USR|noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 USR|im looking for where a restaurant is serving any kind of food for free|inform
@@ -42,7 +39,6 @@ SYS|The price for main courses ranges from 3 pounds 30 to 8 pounds 95 and the pr
 USR|whats the address|request
 SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
 SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
-USR|noise|null
 SYS|The Michaelhouse Centre is a great restaurant.|offer
 SYS|The Michaelhouse Centre is a great restaurant.|offer
 USR|whats the phone number|request

@@ -11,7 +11,6 @@ SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the pr
 USR|ok thank you goodbye|ack
 SYS|What part of town do you have in mind?|request
 SYS|For example, New Chesterton, or Newnham.|request
-USR|noise|null
 SYS|Carringtons is an outstanding cafe and a great restaurant and it serves cafe food and english food.|offer
 USR|i dont care thank you goodbye|inform
 SYS|What kind of price range are you looking for?|request

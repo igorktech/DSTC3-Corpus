@@ -24,11 +24,10 @@ USR|ok|ack
 SYS|Can I help you with anything else?|reqmore
 USR|what about television|request
 SYS|Can I help you with anything else?|reqmore
-USR|unintelligible does it have television|request
+USR|<unk> does it have television|request
 SYS|The Bakers is a great pub, it's in the cheap price range and I am sorry but there is no information on its food.|canthelp.missing_slot_value
-USR|noise sil|null
 SYS|Would you like a true internet connection, or you don't care?|select
-USR|ok unintelligible television|null
+USR|ok <unk> television|null
 SYS|Would you like a true internet connection, or you don't care?|select
 USR|no i want to know if there is television in that pub|negate
 SYS|Are you looking for a cafe or a restaurant?|select

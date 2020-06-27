@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 USR|i dont care|inform
@@ -25,13 +24,11 @@ USR|trumpington area|inform
 SYS|Would you like an italian food, or you don't care?|select
 USR|i dont care|inform
 SYS|The Unicorn Steak and Ale House, which is in the Trumpington part of town, is an outstanding restaurant.|offer
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Castle Hill, or King's Hedges.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Girton, or Trumpington area.|request
-USR|noise address|request
+USR|<unk> address|request
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Girton, King's Hedges, or Newnham area.|request
 USR|trumpington|inform

@@ -2,13 +2,11 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 SYS|Can I help you with anything else?|reqmore
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|im looking for a moderately priced restaurant in unintelligible|inform
+USR|i m looking for a moderately priced restaurant in <unk>|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 USR|good restaurant|inform
@@ -27,7 +25,7 @@ SYS|The Lion and Lamb has a television and it serves pub food.|offer
 SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
 USR|no im looking for a more|negate
 SYS|The Lion and Lamb is a great restaurant.|offer
-USR|im looking unintelligible|null
+USR|i m looking <unk>|null
 SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is a great restaurant.|offer
 USR|barnwell area|inform
 SYS|Would you like english or X food?|select

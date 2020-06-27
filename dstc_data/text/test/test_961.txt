@@ -14,12 +14,9 @@ USR|pub|inform
 SYS|Are you looking for a venue with an internet connection?|request
 USR|yes|affirm
 SYS|The Bakers, which has an internet connection, is a great pub.|offer
-USR|noise sil|null
 SYS|The Bakers, which has an internet connection, is a great pub.|offer
-USR|nosie sil|null
 SYS|The Bakers, which has an internet connection, is a great pub.|offer
 USR|perfect|null
 SYS|There is no pub in the Girton area.|canthelp
-USR|noise sil|null
 SYS|Can I help you with anything else?|reqmore
 USR|thank you good bye|bye

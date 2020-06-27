@@ -2,13 +2,11 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, New Chesterton, or Trumpington area.|request
-USR|noise italian restaurant|inform
+USR|<unk> italian restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, central, or Romsey area.|request
-USR|breathing sil|null
 SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
 USR|cherry hinton central|inform
 SYS|Are you looking for a venue in the Cherry Hinton or central area?|select

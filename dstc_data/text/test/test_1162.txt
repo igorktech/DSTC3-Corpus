@@ -21,11 +21,9 @@ USR|no|negate
 SYS|Nando's Restaurant, Cambridge Leisure Park is a great restaurant and it serves mediterranean food.|offer
 USR|what is the address|request
 SYS|Nando's Restaurant, Cambridge Leisure Park is located on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
-USR|unintelligible|null
 SYS|Nando's Restaurant, Cambridge Leisure Park is an outstanding restaurant.|offer
 USR|what is the address|request
 SYS|Nando's Restaurant, Cambridge Leisure Park is located on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
-USR|unintelligible|null
 SYS|Are you looking for a pub or a restaurant?|select
 USR|what is the address|request
 SYS|Are you looking for a pub or a restaurant?|select

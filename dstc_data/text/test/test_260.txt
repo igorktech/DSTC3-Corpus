@@ -7,7 +7,6 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, Addenbrooke's, or New Chesterton.|request
 USR|cheap price range|inform
 SYS|The Fountain Inn is a great restaurant, it serves pub food and it's in the cheap price range.|offer
-USR|noise|null
 SYS|The Fountain Inn is an outstanding venue.|offer
 SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
 USR|address|request

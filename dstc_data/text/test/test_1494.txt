@@ -2,7 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise i am looking for a pub that allows children and has tv|inform
+USR|<unk> i am looking for a pub that allows children and has tv|inform
 SYS|The Alma, which allows children, is an outstanding pub with a television.|offer
 USR|whats the address and price range of the venue|request
 SYS|The Alma is located on Russell Court.|offer

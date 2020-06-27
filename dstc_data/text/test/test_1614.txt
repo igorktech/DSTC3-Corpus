@@ -28,10 +28,9 @@ SYS|The J Restaurant, which serves chinese food, is an outstanding restaurant.|o
 SYS|It's in the moderate price range.|offer
 USR|american|inform
 SYS|There is no restaurant in the Girton area and serving chinese food in the moderate price range.|canthelp
-USR|unintelligible|null
 SYS|Hakka, which serves chinese food, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|uh an addenbrookes unintelligible|inform
+USR|uh an addenbrookes <unk>|inform
 SYS|The Lucky Star is an outstanding restaurant.|offer
 SYS|It's in the Addenbrooke's part of town.|offer
 SYS|It serves chinese food.|offer

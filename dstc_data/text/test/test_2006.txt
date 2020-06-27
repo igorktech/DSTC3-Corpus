@@ -22,7 +22,7 @@ SYS|The phone number of Caffe Nero is 01223307728.|offer
 SYS|The price for main courses ranges from 3 pounds 50 to 3 pounds 85 and the price for a cappuccino is 2 pounds 15.|offer
 USR|new chesterton|inform
 SYS|There is no cafe in the New Chesterton area.|canthelp
-USR|nic uhm unintelligible|null
+USR|nic uhm <unk>|null
 SYS|There is no cafe in the New Chesterton area.|canthelp
 USR|post code|request
 SYS|Caffe Nero is in the area with the postcode CB2 3PA.|offer

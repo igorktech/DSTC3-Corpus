@@ -18,7 +18,6 @@ USR|what is the address|request
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about the food.|expl-conf
 SYS|You are looking for a venue.|expl-conf
-USR|background noise|null
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about the food and you are looking for a venue.|expl-conf
 USR|whats the address|request

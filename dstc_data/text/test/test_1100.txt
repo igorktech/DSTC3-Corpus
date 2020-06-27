@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
 USR|moderate in the kings hedges area|inform
@@ -15,6 +14,6 @@ USR|what type of food|request
 SYS|The Ranch is an outstanding restaurant.|offer
 USR|type of food|request
 SYS|The Ranch is a great restaurant.|offer
-USR|noise type of food|inform
+USR|<unk> type of food|inform
 SYS|The Ranch serves american food.|offer
 USR|thank you good bye|bye

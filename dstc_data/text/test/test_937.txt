@@ -11,7 +11,7 @@ USR|i dont care what type of food|inform
 SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
 SYS|It's in the Girton part of town.|offer
 SYS|It's in the cheap price range.|offer
-USR|unintelligible what is the address and postcode|request
+USR|<unk> what is the address and postcode|request
 SYS|The Dojo Noodle Bar, which is in the area with the postcode CB2 1RQ, is on Miller's Yard.|offer
 SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
 SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer

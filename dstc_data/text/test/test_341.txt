@@ -7,7 +7,7 @@ SYS|Are you looking for a venue in the Barnwell or Romsey area?|select
 USR|no rosemary|negate
 SYS|Al Casbah, which is in the Romsey part of town, is an outstanding restaurant.|offer
 SYS|It serves mediterranean and middleeastern food.|offer
-USR|unintelligible sorry|null
+USR|<unk> sorry|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Arbury, or Romsey area.|request
 USR|yes romsey|affirm

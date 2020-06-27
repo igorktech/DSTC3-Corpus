@@ -7,7 +7,6 @@ SYS|Would you like a cheap price range, or you don't care?|select
 USR|expensive price range|inform
 SYS|Revolution is an outstanding restaurant and it serves pub food.|offer
 SYS|It's in the expensive price range.|offer
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Romsey, or Trumpington.|request
 USR|what is the address|request

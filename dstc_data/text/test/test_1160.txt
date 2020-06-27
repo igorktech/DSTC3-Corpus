@@ -8,12 +8,12 @@ SYS|It's an outstanding pub.|offer
 USR|does it have a television|request
 SYS|The Bakers, which allows children, is an outstanding pub.|canthelp.missing_slot_value
 SYS|I am sorry but there is no information on its food.|canthelp.missing_slot_value
-USR|noise im looking for a pub with a television|inform
+USR|<unk> i m looking for a pub with a television|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
 USR|doesnt matter|inform
 SYS|The Bakers is a great pub.|offer
-USR|does it have a television noise|request
+USR|does it have a television <unk>|request
 SYS|The Bakers is in the cheap price range.|offer
 USR|does it have a television|request
 SYS|The Bakers is a great pub.|offer

@@ -13,7 +13,6 @@ SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restau
 SYS|Hakka is an outstanding restaurant and it's in the New Chesterton part of town.|offer
 USR|perfect address|request
 SYS|Hakka is located on 24 Milton Road.|offer
-USR|unintelligible|null
 SYS|Blue Spice, which is in the Girton part of town, is an outstanding restaurant.|offer
 USR|and phone number|request
 SYS|The phone number of Blue Spice is 01223413337.|offer

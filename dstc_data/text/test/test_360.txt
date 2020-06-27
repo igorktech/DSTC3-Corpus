@@ -32,7 +32,6 @@ USR|price|request
 SYS|Twenty-four is an outstanding venue.|offer
 SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
 SYS|Twenty-four is a great restaurant.|offer
-USR|unintelligible|null
 SYS|Twenty-four is a great restaurant.|offer
 USR|address|request
 SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer

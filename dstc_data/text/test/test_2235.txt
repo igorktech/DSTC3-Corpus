@@ -10,7 +10,7 @@ USR|do you have the address and phone number|request
 SYS|The Baron of Beef is located on Bridge Street and its phone number is 01223505022.|offer
 USR|does it have internet|request
 SYS|The Baron of Beef doesn't have any internet connection.|offer
-USR|background noise does it have a television|request
+USR|<unk> <unk> does it have a television|request
 SYS|The Baron of Beef is a great pub.|offer
 USR|does it have tv|request
 SYS|The Baron of Beef has a television.|offer

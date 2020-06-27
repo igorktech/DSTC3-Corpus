@@ -17,11 +17,10 @@ USR|in the trumpington area|inform
 SYS|There is no restaurant in the Trumpington area and serving indian food.|canthelp
 USR|ya is there moderately priced restaurant|inform
 SYS|Would you like a trumpington area, or you don't care?|select
-USR|unintelligible|null
 SYS|Would you like a trumpington area, or you don't care?|select
 USR|id like the trumpington area|inform
 SYS|Would you like a trumpington area, or you don't care?|select
-USR|unintelligible a moderately priced restaurant|inform
+USR|<unk> a moderately priced restaurant|inform
 SYS|Would you like a trumpington area, or you don't care?|select
 USR|id like trumpington area|inform
 SYS|Are you looking for a venue in the Romsey or Trumpington area?|select

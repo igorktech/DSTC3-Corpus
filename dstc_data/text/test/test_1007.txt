@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, free, or moderate.|request
 USR|moderately restaurant|inform
@@ -20,7 +19,6 @@ SYS|For example, Churchill College, the Gallery at twelve A High Street, or the 
 USR|cherry hinton|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Book and Print Gallery, Gonville and Caius College, or Holy Trinity Church.|request
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Botanic Gardens, Downing College, or King's College.|request
 USR|cherry hinton|inform

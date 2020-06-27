@@ -21,7 +21,6 @@ SYS|It's in the moderate price range.|offer
 USR|fen ditton area|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, King's Hedges, or New Chesterton.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, Romsey, or Trumpington area.|request
 USR|fen ditton|inform
@@ -52,7 +51,6 @@ SYS|It's in the moderate price range.|offer
 USR|yes|affirm
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Girton, or Romsey area.|request
-USR|background noise|null
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about the food and you are looking for a venue.|expl-conf
 USR|yes|affirm
@@ -72,19 +70,16 @@ SYS|Are you looking for a pub or a restaurant?|select
 USR|restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Fen Ditton, New Chesterton, or Newnham area.|request
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, central, or King's Hedges area.|request
 USR|fen ditton|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, riverside.|request
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, King's Hedges, or Romsey area.|request
 USR|fen ditton fen ditton area|inform
 SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, New Chesterton, or Romsey area.|request
 USR|what type of food|request

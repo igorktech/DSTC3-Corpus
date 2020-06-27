@@ -8,13 +8,11 @@ SYS|For example, cheap, or moderate.|request
 USR|it doesnt matter|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Fen Ditton, Girton, or King's Hedges area.|request
-USR|background noise|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Corpus Christi, Hughes Hall, or Queens' College.|request
 USR|no|negate
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, King's Hedges, or Trumpington area.|request
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, Girton, or riverside area.|request
 USR|it doesnt matter|inform

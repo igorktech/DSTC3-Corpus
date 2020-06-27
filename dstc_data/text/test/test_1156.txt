@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for a thai restaurant in the fen ditton area|inform
 SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
 SYS|It serves thai food.|offer
-USR|background noise|null
 SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
 SYS|It serves thai food.|offer
 USR|what is the address and price|request

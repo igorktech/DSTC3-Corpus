@@ -27,7 +27,7 @@ USR|any restaurant|inform
 SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
 USR|in fenditton|inform
 SYS|Would you like a middleeastern food, or you don't care?|select
-USR|unintelligible a restaurant in fenditton|inform
+USR|<unk> a restaurant in fenditton|inform
 SYS|Al Casbah is an outstanding restaurant and it serves mediterranean and middleeastern food.|offer
 USR|i dont care|inform
 SYS|Are you looking for a venue in the central or Fen Ditton area?|select

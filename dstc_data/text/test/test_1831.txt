@@ -7,10 +7,8 @@ SYS|For example, a cafe, or a pub.|request
 USR|restaurant|inform
 SYS|What type of food would you like?|request
 SYS|For example, Continental, Seafood, or Traditional.|request
-USR|background noise|null
 SYS|What type of food would you like?|request
 SYS|For example, Chinese, Thai, or Turkish.|request
-USR|background noise|null
 SYS|What type of food would you like?|request
 SYS|For example, Northern european, International, or Traditional.|request
 USR|i dont care|inform
@@ -27,21 +25,16 @@ SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Lynne Strover Gallery, Saint Catharine's College, or Lamma's Land.|request
 USR|trumpington|inform
 SYS|Blue Spice is a great restaurant.|offer
-USR|unintelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cambridge Contemporary Art, the Museum Of Technology, or the Regency Gallery.|request
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Girton, or Trumpington area.|request
-USR|background noise|null
 SYS|Blue Spice is in the Girton part of town.|offer
 USR|trumpington|inform
 SYS|The Oak Bistro is an outstanding restaurant and it's in the Trumpington part of town.|offer
 USR|what is the address|request
 SYS|The Oak Bistro is on 6 Lensfield Road.|offer
-USR|background noise|null
 SYS|The Oak Bistro is an outstanding restaurant.|offer
-USR|background noise|null
 SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
 USR|what is the address|request
 SYS|The Oak Bistro is on 6 Lensfield Road.|offer

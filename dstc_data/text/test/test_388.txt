@@ -17,13 +17,11 @@ SYS|The Lion and Lamb is an outstanding venue.|offer
 SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
 USR|can i get the address and phone number|request
 SYS|The Lion and Lamb is located on High Street, Milton and its phone number is 01223860202.|offer
-USR|background noise|null
 SYS|The Lion and Lamb is an outstanding restaurant.|offer
 USR|can i get the address|request
 SYS|The Lion and Lamb is on High Street, Milton.|offer
 USR|can i get the phone number|request
 SYS|The phone number of The Lion and Lamb is 01223860202.|offer
-USR|background noise|null
 SYS|The Lion and Lamb is a great restaurant.|offer
 USR|can i get the phone number|request
 SYS|The phone number of The Lion and Lamb is 01223860202.|offer

@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Castle Hill, or Fen Ditton area.|request
-USR|noise sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Greek, Japanese, or Seafood.|request
 USR|fenditton|inform
@@ -14,7 +13,6 @@ SYS|For example, cheap, free, or moderate.|request
 USR|i dont care|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the central, New Chesterton, or riverside area.|request
-USR|noise sil|null
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about the location.|expl-conf
 SYS|You are looking for a venue.|expl-conf

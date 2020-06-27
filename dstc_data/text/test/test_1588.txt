@@ -19,7 +19,7 @@ USR|im looking for a continental|inform
 SYS|Alimentum is a great restaurant and it serves continental and french food.|offer
 USR|im looking for a continental restaurant|inform
 SYS|Alimentum, which serves continental and french food, is an outstanding restaurant.|offer
-USR|what unintelligible|null
+USR|what <unk>|null
 SYS|Alimentum is located on 152-154 Hills Road and its phone number is 01223413000.|offer
 USR|what is the address|request
 SYS|Alimentum is located on 152-154 Hills Road.|offer

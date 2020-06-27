@@ -15,6 +15,5 @@ SYS|Giraffe is located on Christ's Lane.|offer
 USR|what is the price|request
 SYS|Giraffe is an outstanding venue.|offer
 SYS|The price for main courses ranges from 6 pounds 95 to 14 pounds 95 and the price for a cappuccino is 2 pounds 10.|offer
-USR|unintelligible|null
 SYS|Giraffe is an outstanding restaurant.|offer
 USR|thank you goodbye|bye

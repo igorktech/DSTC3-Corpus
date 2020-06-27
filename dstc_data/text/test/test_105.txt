@@ -2,12 +2,10 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|The Anchor is a great pub.|offer
 USR|restaurant|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
-USR|noise sil|null
 SYS|The Anchor is a great pub.|offer
 USR|moderate|inform
 SYS|The Anchor, which is in the moderate price range, is a great pub.|offer
@@ -25,7 +23,6 @@ USR|yes|affirm
 SYS|Would you like a new chesterton area, or you don't care?|select
 USR|new chesterton|inform
 SYS|The Anchor is located on Silver Street.|offer
-USR|noise sil|null
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about children and you are looking for a venue.|expl-conf
 USR|what is the phone number|request

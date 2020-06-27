@@ -6,7 +6,6 @@ USR|im looking for a moderately priced pub with a television|inform
 SYS|The Alma is an outstanding pub and it's in the moderate price range.|offer
 USR|does it have a television|request
 SYS|The phone number of The Alma is 01223316722 and I am sorry but there is no information on its food.|canthelp.missing_slot_value
-USR|coughing sil|null
 SYS|The Alma is an outstanding pub.|offer
 USR|start over|restart
 SYS|The Alma is a great pub.|offer
@@ -36,7 +35,7 @@ USR|does it have a television|request
 SYS|The Alma is an outstanding pub.|offer
 USR|with a television|inform
 SYS|Can I help you with anything else?|reqmore
-USR|sigh sil|null
+USR|sigh <unk>|null
 SYS|Can I help you with anything else?|reqmore
 USR|yes|affirm
 SYS|Can I help you with anything else?|reqmore

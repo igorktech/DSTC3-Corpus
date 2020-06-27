@@ -5,10 +5,8 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for an english restaurant in the high price range|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, or free.|request
-USR|unintelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
-USR|unintelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, or moderate.|request
 USR|expensive|inform

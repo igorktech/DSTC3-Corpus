@@ -15,7 +15,7 @@ SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Byard Art, Downing College, or Old Schools.|request
 USR|phone number|request
 SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
-USR|coughing romsey|inform
+USR|<unk> romsey|inform
 SYS|The Backstreet Bistro is a great restaurant.|offer
 SYS|It's in the Romsey part of town.|offer
 SYS|It serves contemporary and english food.|offer

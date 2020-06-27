@@ -21,7 +21,6 @@ SYS|What type of food would you like?|request
 SYS|For example, East asian, Greek, or Turkish.|request
 USR|international|inform
 SYS|There is no restaurant in the Girton area and serving international food.|canthelp
-USR|unintelligible|null
 SYS|There is no restaurant in the Girton area and serving greek food in the moderate price range.|canthelp
 SYS|Would you like international or X food?|select
 USR|thank you goodbye|bye

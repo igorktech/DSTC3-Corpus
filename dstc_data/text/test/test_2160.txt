@@ -14,7 +14,6 @@ SYS|For example, something in the Fen Ditton, Girton, or New Chesterton area.|re
 USR|any part of town|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Girton, or riverside area.|request
-USR|breathing sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Fen Ditton, or Girton.|request
 USR|it doesnt matter|inform

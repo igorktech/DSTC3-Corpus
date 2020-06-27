@@ -5,13 +5,10 @@ SYS|How may I help you?|welcomemsg
 USR|im looking for a spanish restaurant and it should have a cheap price range|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Cherry Hinton, or King's Hedges area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Fen Ditton, or riverside area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the central, Girton, or riverside area.|request
-USR|noise|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Byard Art, Cambridge Contemporary Art, or Corpus Christi.|request
 USR|any part of|inform

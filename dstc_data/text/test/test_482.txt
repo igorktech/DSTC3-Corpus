@@ -5,10 +5,8 @@ SYS|How may I help you?|welcomemsg
 USR|beeping|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 USR|free rest|inform
 SYS|What kind of venue are you looking for?|request

@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, free, or moderate.|request
 USR|expensive|inform
@@ -15,7 +14,6 @@ SYS|Can I help you with anything else?|reqmore
 USR|expensive|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub.|request
 USR|restaurant|inform
@@ -24,7 +22,6 @@ SYS|For example, something in the Barnwell, Fen Ditton, or Newnham area.|request
 USR|romsey|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Saint John's College, Sidney Sussex College, or Williams Art and Antiques.|request
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Newnham, or riverside area.|request
 USR|romsey|inform

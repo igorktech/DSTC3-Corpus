@@ -20,18 +20,13 @@ SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outsta
 USR|can i get the phone number and post code of it|request
 SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
 SYS|It's in the area with the postcode CB2 1SU.|offer
-USR|noise|null
 SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
 USR|can i get the telephone number and postal code|request
 SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
-USR|noise|null
 SYS|The Michaelhouse Centre is a great restaurant.|offer
-USR|noise|null
 SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
-USR|noise|null
 SYS|The Michaelhouse Centre is a great restaurant.|offer
 USR|can i get the telephone number and postal code please|request
 SYS|The phone number of the Michaelhouse Centre is 01223309147 and it's in the area with the postcode CB2 1SU.|offer
-USR|noise|null
 SYS|The Michaelhouse Centre is a great restaurant.|offer
 USR|thank you goodbye|bye

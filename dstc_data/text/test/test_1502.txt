@@ -6,7 +6,6 @@ SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a restaurant.|request
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub.|request
 USR|im looking for an international|inform

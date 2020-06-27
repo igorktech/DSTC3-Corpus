@@ -16,8 +16,7 @@ USR|the address|request
 SYS|HK Fusion is on 21 Burleigh Street.|offer
 USR|the postal code|request
 SYS|HK Fusion is in the area with the postcode CB1 1DG.|offer
-USR|noise unintelligible|null
 SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
-USR|noise the postal code|request
+USR|<unk> the postal code|request
 SYS|HK Fusion, which is in the area with the postcode CB1 1DG, is on 21 Burleigh Street.|offer
 USR|good bye thank you|bye

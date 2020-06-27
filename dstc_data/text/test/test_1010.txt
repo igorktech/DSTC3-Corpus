@@ -8,7 +8,6 @@ SYS|For example, Northern european, Japanese, or Spanish.|request
 USR|um i want a cheap restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Little Saint Mary's, the Whipple Museum of the History of Science, or Williams Art and Antiques.|request
-USR|background noise|null
 SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
 SYS|La Raza is an outstanding restaurant.|offer
 SYS|It's in the cheap price range.|offer

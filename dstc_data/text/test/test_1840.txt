@@ -6,7 +6,6 @@ USR|i am looking for a pub and it should have an internet connection and have a 
 SYS|The Bakers is a great pub with an internet connection and a television.|offer
 USR|what is the address|request
 SYS|The Bakers is located on 176 East Road.|offer
-USR|background noise|null
 SYS|The Bakers has an internet connection, it has a television and it's an outstanding pub.|offer
 USR|what is the address|request
 SYS|The Bakers is located on 176 East Road.|offer

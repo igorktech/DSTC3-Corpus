@@ -2,13 +2,10 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|background noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or expensive.|request
-USR|background noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or expensive.|request
 USR|hello|hello
@@ -54,7 +51,7 @@ USR|what is the phone number|request
 SYS|The phone number of Spice Merchants is 01223843436.|offer
 USR|well thank you|thankyou
 SYS|Can I help you with anything else?|reqmore
-USR|throat clear thank you|thankyou
+USR|<unk> <unk> thank you|thankyou
 SYS|Can I help you with anything else?|reqmore
 USR|no thank you good bye|negate
 SYS|Spice Merchants is a great restaurant.|offer

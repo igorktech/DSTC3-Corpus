@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
 USR|restaurant|inform
@@ -27,6 +26,6 @@ USR|what is the address|request
 SYS|HK Fusion is located on 21 Burleigh Street.|offer
 SYS|I can't hear you.|offer
 SYS|HK Fusion is located on 21 Burleigh Street.|offer
-USR|unintelligible what is the address|request
+USR|<unk> what is the address|request
 SYS|HK Fusion is on 21 Burleigh Street.|offer
 USR|thank you good bye|bye

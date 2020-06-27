@@ -15,7 +15,6 @@ SYS|The Wheatsheaf, which is in the Barnwell part of town, is an outstanding res
 SYS|It's in the moderate price range.|offer
 USR|can i have the address|request
 SYS|The Wheatsheaf is on Stow Road, Stow-Cum-Quy.|offer
-USR|noise sil|null
 SYS|The Wheatsheaf is an outstanding restaurant.|offer
 USR|can i have the address|request
 SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy.|offer

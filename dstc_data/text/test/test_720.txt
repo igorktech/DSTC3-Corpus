@@ -6,7 +6,6 @@ USR|im looking for a pub in castle hill that has a television|inform
 SYS|Are you looking for a venue that allows children?|request
 USR|no|negate
 SYS|Are you looking for a venue with a television?|request
-USR|unintelligible|null
 SYS|Are you looking for a venue with a television?|request
 USR|yes|affirm
 SYS|What kind of price range are you looking for?|request

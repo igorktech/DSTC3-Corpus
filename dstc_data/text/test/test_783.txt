@@ -11,7 +11,6 @@ USR|what area|request
 SYS|The Rainbow Cafe is in the Girton part of town.|offer
 USR|ok what is the address and phone number|ack
 SYS|The Rainbow Cafe is on 9a King's Parade and its phone number is 01223321551.|offer
-USR|clear throat|null
 SYS|The Rainbow Cafe is a great restaurant.|offer
 USR|what is the address and phone number|request
 SYS|The Rainbow Cafe is located on 9a King's Parade and its phone number is 01223321551.|offer

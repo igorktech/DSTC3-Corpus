@@ -19,7 +19,7 @@ USR|whats the phone number|request
 SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
 USR|phone number|request
 SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
-USR|unintelligible the address|request
+USR|<unk> the address|request
 SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer
 USR|the address|request
 SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer

@@ -20,7 +20,6 @@ SYS|For example, the Broughton House Gallery, Queens' College, or Wandlebury Cou
 USR|yes trumpington|affirm
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, All Saints Church, the Book and Print Gallery, or Magdalene College.|request
-USR|breathing sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Holy Trinity Church, the Lynne Strover Gallery, or Sheep's Green.|request
 USR|thank you good bye|bye

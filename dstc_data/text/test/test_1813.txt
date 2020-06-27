@@ -27,7 +27,6 @@ USR|what is the area|request
 SYS|La Raza is in the central part of town.|offer
 USR|what is the area|request
 SYS|La Raza is in the central part of town.|offer
-USR|unintelligible|null
 SYS|La Raza is an outstanding restaurant.|offer
 USR|what is the postcode|request
 SYS|La Raza is in the area with the postcode CB2 3LL.|offer

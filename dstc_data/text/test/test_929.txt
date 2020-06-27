@@ -16,11 +16,8 @@ USR|whats the address|request
 SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
 USR|whats the phone number|request
 SYS|The phone number of La Raza is 01223464550.|offer
-USR|cough|null
 SYS|La Raza is a great restaurant.|offer
-USR|cough|null
 SYS|La Raza is a great restaurant.|offer
-USR|cough|null
 SYS|La Raza is an outstanding restaurant.|offer
 USR|whats the price|request
 SYS|La Raza is a great venue.|offer

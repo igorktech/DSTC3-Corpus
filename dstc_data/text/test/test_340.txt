@@ -14,11 +14,10 @@ SYS|For example, English, Fusion, or Japanese.|request
 USR|english|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Fen Ditton, or Romsey area.|request
-USR|anywhere unintelligible|inform
+USR|anywhere <unk>|inform
 SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
 USR|are there any cheap ones|inform
 SYS|There is no restaurant serving english food in the cheap price range.|canthelp
-USR|unintelligible|null
 SYS|Can I help you with anything else?|reqmore
 USR|uh basically im just looking for a cheap restaurant|inform
 SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer

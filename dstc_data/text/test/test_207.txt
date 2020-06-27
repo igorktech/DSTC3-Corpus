@@ -29,11 +29,9 @@ USR|yes id like a contemporary restaurant|affirm
 SYS|Would you like a venue with a cheap or moderate price range?|select
 USR|moderate|inform
 SYS|Cotto is an outstanding restaurant.|offer
-USR|cough|null
 SYS|Would you like a venue with a cheap or moderate price range?|select
 USR|moderate|inform
 SYS|Cotto is a great restaurant, it serves contemporary food and it's in the moderate price range.|offer
-USR|unintelligible|null
 SYS|Cotto is located on 183 East Road.|offer
 USR|repeat|repeat
 SYS|Cotto is an outstanding restaurant.|offer

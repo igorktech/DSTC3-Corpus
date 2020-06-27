@@ -21,7 +21,6 @@ SYS|196 Meze Bar, which serves turkish food, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|great phone number|request
 SYS|The phone number of 196 Meze Bar is 01223410519.|offer
-USR|cough|null
 SYS|196 Meze Bar is a great restaurant.|offer
 USR|phone number|request
 SYS|The phone number of 196 Meze Bar is 01223410519.|offer

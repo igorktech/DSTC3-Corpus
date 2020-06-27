@@ -15,17 +15,17 @@ SYS|Are you looking for a cafe or a restaurant?|select
 SYS|Are you looking for a cafe or a restaurant?|select
 SYS|Are you looking for a cafe or a restaurant?|select
 SYS|Are you looking for a cafe or a restaurant?|select
-USR|noise restaurant noise|inform
+USR|<unk> restaurant <unk>|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Little Saint Mary's, the Ruskin Gallery, or the Lammas Land Park.|request
-USR|breathing chinese restaurant|inform
+USR|<unk> chinese restaurant|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, central, or riverside area.|request
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Cherry Hinton, or King's Hedges area.|request
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Christ's College, King's College, or the Regency Gallery.|request
-USR|noise i dont care|inform
+USR|<unk> i do nt care|inform
 SYS|The J Restaurant is a great restaurant and it serves chinese food.|offer
 USR|doesnt matter|inform
 SYS|What kind of price range are you looking for?|request

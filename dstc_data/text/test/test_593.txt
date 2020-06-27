@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
 USR|cheap restaurant in the fenditton area|inform
@@ -20,10 +18,8 @@ SYS|For example, something in the Castle Hill, Newnham, or Romsey area.|request
 USR|fenditton fenditton fenditton area fenditton|inform
 SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
 SYS|It's in the cheap price range.|offer
-USR|breathing|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Girton, or New Chesterton area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Arbury, or New Chesterton area.|request
 SYS|What part of town do you have in mind?|request
@@ -32,7 +28,6 @@ USR|fenditton area|inform
 SYS|The Dojo Noodle Bar is a great restaurant, it's in the Girton part of town and it's in the cheap price range.|offer
 USR|fenditton area something in the fenditton area|inform
 SYS|The Dojo Noodle Bar is in the Girton part of town.|offer
-USR|noise|null
 SYS|The Dojo Noodle Bar is a great restaurant.|offer
 SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
-USR|thank you goodbye noise|bye
+USR|thank you goodbye <unk>|bye

@@ -10,7 +10,6 @@ SYS|For example, the Folk Museum, Emmanuel College, or The Fitzwilliam Museum.|r
 USR|i dont know|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Old Schools, or Wandlebury Country Park.|request
-USR|unintelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Artworks, Churchill College, or Primavera.|request
 USR|no|negate

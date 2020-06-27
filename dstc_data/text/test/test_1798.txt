@@ -11,7 +11,7 @@ SYS|For example, Cherry Hinton, or Chesterton.|request
 USR|a cheap restaurant in the fenditton area|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, Chesterton, or Fen Ditton area.|request
-USR|unintelligible fenditton area|inform
+USR|<unk> fenditton area|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, Chesterton, or riverside area.|request
 USR|something in the fenditton area|inform

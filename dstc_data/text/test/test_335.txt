@@ -14,7 +14,7 @@ SYS|What type of food would you like?|request
 SYS|For example, American, French, or Spanish.|request
 SYS|What type of food would you like?|request
 SYS|For example, Continental, English, or International.|request
-USR|unitelligible restaurant in the romsey area|inform
+USR|<unk> restaurant in the romsey area|inform
 SYS|What type of food would you like?|request
 SYS|For example, Drinks and snacks only, Chinese, or Thai.|request
 USR|continental|inform

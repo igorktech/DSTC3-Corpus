@@ -2,7 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|system i am looking for a moderately priced restaurant in the newnham area|inform
+USR|<unk> i am looking for a moderately priced restaurant in the newnham area|inform
 SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|whats the address and phone number of the venue|request

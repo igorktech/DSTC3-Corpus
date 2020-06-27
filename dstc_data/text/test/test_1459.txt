@@ -2,9 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|yes im looking for a free restaurant in unitelligible washington|affirm
+USR|yes i m looking for a free restaurant in <unk> washington|affirm
 SYS|There is no restaurant in the Barnwell area that is providing services for free.|canthelp
-USR|unintelligible|null
 SYS|There is no restaurant in the Barnwell area and serving fusion food.|canthelp
 USR|no free|negate
 SYS|There is no restaurant serving fusion food that is providing services for free.|canthelp
@@ -20,6 +19,6 @@ USR|what city|null
 SYS|The Michaelhouse Centre serves contemporary food.|offer
 USR|what city|null
 SYS|The Michaelhouse Centre serves contemporary food.|offer
-USR|what city is the unintelligible house in|null
+USR|what city is the <unk> house in|null
 SYS|The Michaelhouse Centre is a great restaurant.|offer
 USR|thank you good bye|bye

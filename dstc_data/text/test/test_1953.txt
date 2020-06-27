@@ -12,7 +12,6 @@ USR|address|request
 SYS|The Lucky Star is on Unit.|offer
 USR|phone number and post code|request
 SYS|The phone number of the Lucky Star is 01223244277 and it's in the area with the postcode CB1 7DY.|offer
-USR|unintelligible|null
 SYS|There is no restaurant in the Addenbrooke's area and serving fusion food.|canthelp
 USR|what is the address|request
 SYS|The Lucky Star is on Unit.|offer

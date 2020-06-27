@@ -24,7 +24,6 @@ SYS|Hakka is an outstanding restaurant and it's in the New Chesterton part of to
 USR|i dont care|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, or moderate.|request
-USR|knock sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, free, or moderate.|request
 USR|i dont care|inform

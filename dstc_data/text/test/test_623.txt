@@ -7,7 +7,6 @@ SYS|Are you looking for a venue that allows children?|request
 USR|no|negate
 SYS|The Anchor, which has a television, is in the moderate price range.|offer
 SYS|It's a great pub.|offer
-USR|noise sil|null
 SYS|The Anchor has a television and it's in the moderate price range.|offer
 SYS|It's an outstanding pub.|offer
 USR|im looking for a ba|null

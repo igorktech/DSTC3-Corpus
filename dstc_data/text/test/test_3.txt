@@ -10,7 +10,6 @@ SYS|Carringtons is a great cafe and an outstanding restaurant.|offer
 SYS|It serves cafe food and english food.|offer
 USR|what is the address and area|request
 SYS|Carringtons is on 23 Market Street.|offer
-USR|noise sil|null
 SYS|Carringtons is an outstanding restaurant.|offer
 USR|what is the address|request
 SYS|Carringtons is on 23 Market Street.|offer

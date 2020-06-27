@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|restaurant|inform
@@ -16,7 +15,6 @@ USR|where is it located|request
 SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
 USR|restaurant in cherryhinton|inform
 SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
-USR|noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or free.|request
 USR|thank you goo oh what is the phone number|request

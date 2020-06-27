@@ -5,7 +5,7 @@ SYS|How may I help you?|welcomemsg
 USR|um i want a continental restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Byard Art, Old Schools, or Lamma's Land.|request
-USR|um unintelligible|null
+USR|um <unk>|null
 SYS|Blue Spice is an outstanding restaurant.|offer
 USR|ok|ack
 SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way and I am sorry but there is no information on its location.|canthelp.missing_slot_value

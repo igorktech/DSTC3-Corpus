@@ -4,7 +4,6 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 USR|id like a restaurant that serves drinks and snacks only|inform
 SYS|The Fleur is an outstanding restaurant and it serves drinks and snacks.|offer
-USR|unintelligible|null
 SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
 USR|whats the price range|request
 SYS|The Fleur is in the moderate price range.|offer

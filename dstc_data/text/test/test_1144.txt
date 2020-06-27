@@ -9,7 +9,6 @@ SYS|Are you looking for a cafe or a restaurant?|select
 USR|take away restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cambridge Contemporary Art, Great Saint Mary's Church, or the Museum of Archaelogy and Anthropology.|request
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, central, or Fen Ditton.|request
 USR|i dont care|inform

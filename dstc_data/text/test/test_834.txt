@@ -22,7 +22,6 @@ USR|phone number|request
 SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
 USR|address|request
 SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
-USR|noise sil|null
 SYS|The Dojo Noodle Bar is a great restaurant and it's in the Girton part of town.|offer
 SYS|It's in the cheap price range.|offer
 USR|thank you good bye|bye

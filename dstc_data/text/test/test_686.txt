@@ -9,17 +9,13 @@ USR|i dont care|inform
 SYS|The Michaelhouse Centre is a great restaurant and it doesn't charge any entrance fee.|offer
 USR|ok what is the address phone number and post code of the venue|ack
 SYS|The Michaelhouse Centre, which is in the area with the postcode CB2 1SU, is located on Michaelhouse, Trinity Street.|offer
-USR|noise sil|null
 SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
-USR|noise sil|null
 SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
 USR|ok what is the address and phone number of the venue|ack
 SYS|The Michaelhouse Centre, which is in the area with the postcode CB2 1SU, is on Michaelhouse, Trinity Street.|offer
-USR|noise sil|null
 SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
 USR|what is the address|request
 SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
-USR|breathing sil|null
 SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
 USR|ok|ack
 SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is a great restaurant.|offer

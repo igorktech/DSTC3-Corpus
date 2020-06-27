@@ -20,6 +20,5 @@ USR|whats the area|request
 SYS|I am sorry but there is no information on Caffe Nero's area.|canthelp.missing_slot_value
 USR|what part of town|request
 SYS|I am sorry but there is no information on Caffe Nero's area.|canthelp.missing_slot_value
-USR|background noise|null
 SYS|Caffe Nero is a great cafe.|offer
 USR|thank you good bye|bye

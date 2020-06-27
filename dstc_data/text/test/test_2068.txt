@@ -14,6 +14,5 @@ USR|what is the phone number|request
 SYS|The phone number of The Agora is 01223308448.|offer
 USR|what area is it in|request
 SYS|The Agora is in the central part of town.|offer
-USR|unintelligible|null
 SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
 USR|thank you goodbye|bye

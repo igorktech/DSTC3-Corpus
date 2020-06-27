@@ -5,7 +5,6 @@ SYS|How may I help you?|welcomemsg
 USR|i am looking for a cheap restaurant in the romsey area|inform
 SYS|What type of food would you like?|request
 SYS|For example, Northern european, or Greek.|request
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Book and Print Gallery, Hughes Hall, or the Michaelhouse Centre.|request
 USR|it doesnt matter|inform
@@ -14,10 +13,8 @@ SYS|For example, Cafe food, Fastfood, or French.|request
 USR|no im not|negate
 SYS|What type of food would you like?|request
 SYS|For example, Fusion, Seafood, or Spanish.|request
-USR|noise sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Italian, Spanish, or Turkish.|request
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Romsey, or Trumpington area.|request
 USR|it doesnt matter|inform

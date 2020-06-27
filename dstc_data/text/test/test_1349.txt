@@ -2,7 +2,7 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|breathing hi i am looking for a moderately priced restaurant in the barnwell area|hello
+USR|<unk> hi i am looking for a moderately priced restaurant in the barnwell area|hello
 SYS|The Wheatsheaf is a great restaurant.|offer
 SYS|It's in the Barnwell part of town.|offer
 SYS|It's in the moderate price range.|offer

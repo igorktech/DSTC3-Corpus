@@ -16,7 +16,6 @@ SYS|For example, Christ's College, Great Saint Mary's Church, or Sheep's Green.|
 USR|east asian restaurant|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Great Saint Mary's Church, Little Saint Mary's, or Wandlebury Country Park.|request
-USR|unintelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Churchill College, Kettle's Yard, or the Museum of Classical Archaeology.|request
 USR|east asian|inform

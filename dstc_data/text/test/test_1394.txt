@@ -10,4 +10,4 @@ USR|what is the address|request
 SYS|Carringtons is on 23 Market Street.|offer
 USR|what is the postcode|request
 SYS|Carringtons is in the area with the postcode CB2 3NZ.|offer
-USR|unintelligible thank you good bye|bye
+USR|<unk> thank you good bye|bye

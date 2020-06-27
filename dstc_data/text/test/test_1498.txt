@@ -2,31 +2,25 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, free, or moderate.|request
-USR|noise sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
-USR|noise expensive|inform
+USR|<unk> expensive|inform
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|restaurant noise|inform
+USR|restaurant <unk>|inform
 SYS|What type of food would you like?|request
 SYS|For example, East asian, Chinese, or English.|request
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Byard Art, Castle Galleries, or Jesus College.|request
-USR|unintelligible sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Gonville and Caius College, the Lammas Land Park, or the Whipple Museum of the History of Science.|request
 USR|romsey|inform
 SYS|What type of food would you like?|request
 SYS|For example, East asian, pub, or Continental.|request
-USR|noise sil|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Milton Country Park, Saint John's College, or Trinity College.|request
-USR|noise sil|null
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about the location.|expl-conf
 SYS|You are looking for a venue.|expl-conf

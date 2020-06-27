@@ -26,7 +26,6 @@ SYS|For example, something in the Addenbrooke's, Castle Hill, or King's Hedges a
 USR|fenditton area|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Cherry Hinton, or Romsey area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Barnwell, or Trumpington.|request
 USR|thank you|thankyou

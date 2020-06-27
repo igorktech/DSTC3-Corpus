@@ -31,7 +31,6 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Romsey, or Trumpington area.|request
 USR|what is the address|request
 SYS|Hakka is located on 24 Milton Road.|offer
-USR|noise|null
 SYS|Hakka is a great restaurant.|offer
 USR|new chesterton|inform
 SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer

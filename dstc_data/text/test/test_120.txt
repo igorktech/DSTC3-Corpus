@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|breathing sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|breathing sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|moderately priced restaurant in the girton a|inform
@@ -23,7 +21,6 @@ USR|girton area|inform
 SYS|The Rainbow Cafe is a great restaurant, it's in the Girton part of town and it's in the moderate price range.|offer
 USR|chesterton|inform
 SYS|Twenty-four is an outstanding restaurant, it's in the Chesterton part of town and it's in the moderate price range.|offer
-USR|unintelligible|null
 SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|a pub|inform

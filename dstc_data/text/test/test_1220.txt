@@ -9,7 +9,6 @@ USR|no|negate
 SYS|HK Fusion is an outstanding restaurant.|offer
 SYS|It's in the Cherry Hinton part of town.|offer
 SYS|It's in the cheap price range.|offer
-USR|nosie sil|null
 SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
 SYS|It's in the cheap price range.|offer
 USR|its in the cherry hinton area|inform

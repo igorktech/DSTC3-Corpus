@@ -13,7 +13,7 @@ SYS|For example, Contemporary, International, or Turkish.|request
 USR|english|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, riverside, or Romsey area.|request
-USR|breathing clicking english clicking|inform
+USR|<unk> <unk> english <unk>|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
 USR|fenditton|inform
@@ -29,7 +29,7 @@ USR|fenditton|inform
 SYS|There is no restaurant in the Girton area and serving english food.|canthelp
 USR|fenditton|inform
 SYS|There is no restaurant in the Girton area and serving english food.|canthelp
-USR|clicking fenditton|inform
+USR|<unk> fenditton|inform
 SYS|Would you like an english food, or you don't care?|select
 USR|dont care|inform
 SYS|Blue Spice is an outstanding restaurant.|offer

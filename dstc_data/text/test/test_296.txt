@@ -25,7 +25,6 @@ SYS|For example, Downing College, Jesus College, or the Museum of Classical Arch
 USR|kings college|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Chesterton, or riverside area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, New Chesterton, or Trumpington area.|request
 USR|river side|inform

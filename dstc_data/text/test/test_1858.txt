@@ -2,13 +2,11 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|a turkish restaurant|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or moderate.|request
-USR|unintelligible|null
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Castle Galleries, the Lynne Strover Gallery, or Pembroke College.|request
 USR|expensive|inform
@@ -23,13 +21,12 @@ USR|address please|request
 SYS|The Agora is located on 4 King's Parade.|offer
 USR|may i have the address please|request
 SYS|The Agora is on 4 King's Parade.|offer
-USR|unintelligible and the phone number|request
+USR|<unk> and the phone number|request
 SYS|The phone number of The Agora is 01223308448.|offer
 USR|the phone number|request
 SYS|The phone number of The Agora is 01223308448.|offer
 USR|the area of the venue|request
 SYS|The Agora is in the central part of town.|offer
-USR|unitelligible sil|null
 SYS|The Agora is a great restaurant.|offer
 USR|and the area of the venue|request
 SYS|The Agora is in the central part of town.|offer

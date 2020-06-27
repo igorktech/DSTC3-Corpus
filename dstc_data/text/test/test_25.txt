@@ -38,7 +38,7 @@ SYS|The Peking Restaurant is an outstanding restaurant, it serves chinese food a
 USR|what is the area and the phone number|request
 SYS|The Peking Restaurant is in the Addenbrooke's part of town and its phone number is 01223902166.|offer
 SYS|The Peking Restaurant is an outstanding restaurant.|offer
-USR|noise what is the phone number|request
+USR|<unk> what is the phone number|request
 SYS|The phone number of the Peking Restaurant is 01223902166.|offer
 USR|what area|request
 SYS|The Peking Restaurant is in the Addenbrooke's part of town.|offer

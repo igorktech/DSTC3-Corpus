@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
 USR|fenditton looking for a restaurant in fenditton|inform
@@ -16,7 +15,6 @@ SYS|The Lion and Lamb is an outstanding restaurant and it's in the Fen Ditton pa
 USR|any|inform
 SYS|What type of food would you like?|request
 SYS|For example, American, Contemporary, or Spanish.|request
-USR|breathing sil|null
 SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
 USR|any restaurant in fenditton|inform
 SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer

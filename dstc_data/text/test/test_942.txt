@@ -17,18 +17,14 @@ SYS|The Alma, which allows children, is in the moderate price range.|offer
 SYS|It's a great pub.|offer
 USR|yes let me have the address|request
 SYS|The Alma is on Russell Court.|offer
-USR|unintelligible|null
 SYS|The Alma is an outstanding pub.|offer
 SYS|The Alma is an outstanding pub.|offer
 USR|you answered all my questions thank you good bye|thankyou
 SYS|The Alma is an outstanding pub.|offer
 SYS|The Alma is a great pub.|offer
-USR|background noise good bye|bye
+USR|<unk> <unk> good bye|bye
 SYS|The Alma is located on Russell Court.|offer
-USR|unintelligible|null
 SYS|The Alma is an outstanding pub.|offer
-USR|unintelligible|null
 SYS|The Alma is a great pub.|offer
-USR|unintelligible|null
 SYS|The Alma is a great pub.|offer
 USR|thank you good bye|bye

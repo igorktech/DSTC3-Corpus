@@ -10,11 +10,10 @@ USR|greek restaurant|inform
 SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
 USR|restaurant|inform
 SYS|The Eraina Taverna is in the area with the postcode CB2 3QA.|offer
-USR|noise greek restaurant noise|inform
+USR|<unk> greek restaurant <unk>|inform
 SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
-USR|noise address phone number and price noise|request
+USR|<unk> address phone number and price <unk>|request
 SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
-USR|knock sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Chinese, Greek, or International.|request
-USR|knock thank you good bye|bye
+USR|<unk> thank you good bye|bye

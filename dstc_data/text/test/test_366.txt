@@ -23,9 +23,9 @@ USR|children|inform
 SYS|Would you like true children, or you don't care?|select
 USR|true children|inform
 SYS|Would you like true children, or you don't care?|select
-USR|noise true children|inform
+USR|<unk> true children|inform
 SYS|There is no pub in the Cherry Hinton area.|canthelp
-USR|noise children|inform
+USR|<unk> children|inform
 SYS|Would you like true children, or you don't care?|select
 USR|true children|inform
 SYS|Would you like a free price range, or you don't care?|select
@@ -38,6 +38,5 @@ SYS|The Bakers is a great pub with an internet connection.|offer
 SYS|Would you like a true internet connection, or you don't care?|select
 USR|t true children|inform
 SYS|The Baron of Beef, which allows children, is an outstanding pub.|offer
-USR|breathing sil|null
 SYS|The Baron of Beef is a great pub.|offer
-USR|breathing thank you good bye|thankyou
+USR|<unk> thank you good bye|thankyou

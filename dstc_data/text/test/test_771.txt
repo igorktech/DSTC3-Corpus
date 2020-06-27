@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unitelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, or free.|request
-USR|unintelligible|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or moderate.|request
 USR|cheap|inform
@@ -20,7 +18,6 @@ SYS|For example, American, Continental, or Spanish.|request
 USR|coffee shop|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cafe Jello, Little Saint Mary's, or Old Schools.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Addenbrooke's, or Barnwell.|request
 USR|city centre|inform
@@ -36,7 +33,7 @@ USR|okay uh what type of food|ack
 SYS|Clowns serves italian food.|offer
 USR|what type of food|request
 SYS|Clowns serves italian food.|offer
-USR|unintelligible do you have anything else|reqalts
+USR|<unk> do you have anything else|reqalts
 SYS|La Raza is a great restaurant, it's in the central part of town and it's in the cheap price range.|offer
 USR|what type of food|request
 SYS|La Raza serves spanish food.|offer

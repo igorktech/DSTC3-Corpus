@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|im looking for an expensive restaurant in the addonbroo|inform
@@ -17,7 +15,7 @@ SYS|For example, something in the Newnham, riverside, or Trumpington area.|reque
 USR|addonbrookes|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Corpus Christi, The Fitzwilliam Museum, or Wandlebury Country Park.|request
-USR|breathing addonbrookes|inform
+USR|<unk> addonbrookes|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Castle Hill, or King's Hedges area.|request
 USR|addonbrookes|inform
@@ -34,7 +32,6 @@ SYS|Blue Spice is a great restaurant.|offer
 SYS|It's in the expensive price range.|offer
 USR|what is the address and post code|request
 SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way and it's in the area with the postcode CB1 7DY.|offer
-USR|noise sil|null
 SYS|Blue Spice is a great restaurant.|offer
 USR|what is the address and post code|request
 SYS|Let me confirm.|expl-conf

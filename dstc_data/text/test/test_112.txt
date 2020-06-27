@@ -4,7 +4,6 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|coughing|null
 SYS|Can I help you with anything else?|reqmore
 SYS|Can I help you with anything else?|reqmore
 USR|restaurant|inform

@@ -19,7 +19,6 @@ USR|it should have a moderate price range|inform
 SYS|Carringtons, which is a great cafe and an outstanding restaurant, is in the moderate price range.|offer
 USR|can i get the phone number|request
 SYS|The phone number of Carringtons is 01223361792.|offer
-USR|noise sil|null
 SYS|Carringtons is a great restaurant.|offer
 USR|ok give me the phone number|ack
 SYS|The phone number of Carringtons is 01223361792.|offer

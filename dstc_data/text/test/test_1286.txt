@@ -2,10 +2,10 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|unintelligible im looking for|null
+USR|<unk> i m looking for|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|unintelligible im looking for a fast food restaurant w|inform
+USR|<unk> i m looking for a fast food restaurant w|inform
 SYS|Are you looking for a pub or a restaurant?|select
 USR|im looking for a fast food|inform
 SYS|Are you looking for a pub or a restaurant?|select
@@ -14,9 +14,8 @@ SYS|The Bakers is an outstanding pub.|offer
 USR|pub food restaurant|inform
 SYS|The Bakers allows children and it's a great pub.|offer
 SYS|Are you looking for a venue that allows children?|request
-USR|unintelligible|null
 SYS|The Bakers is an outstanding pub.|offer
-USR|i need unintelligible|null
+USR|i need <unk>|null
 SYS|The Bakers is a great pub.|offer
 USR|i need it with a moderate price range|inform
 SYS|The Alma is an outstanding pub.|offer

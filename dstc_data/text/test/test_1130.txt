@@ -2,16 +2,14 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe.|request
 USR|i would like a|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
-USR|a moderate priced restaurant in unintelligible|inform
+USR|a moderate priced restaurant in <unk>|inform
 SYS|Would you like a venue with a cheap or moderate price range?|select
 USR|moderate priced restaurant in chesterton|inform
 SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer

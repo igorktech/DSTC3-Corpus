@@ -11,7 +11,6 @@ SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, free, or moderate.|request
 USR|expensive|inform
 SYS|There is no pub in the expensive price range.|canthelp
-USR|unintelligible|null
 SYS|Let me confirm.|expl-conf
 SYS|You don't care about children and you are looking for a venue.|expl-conf
 USR|restaurant|inform

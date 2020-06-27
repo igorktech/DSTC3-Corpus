@@ -26,7 +26,6 @@ SYS|For example, cheap, or free.|request
 USR|i dont care|inform
 SYS|What type of food would you like?|request
 SYS|For example, American, Indian, or Traditional.|request
-USR|unintelligible|null
 SYS|What type of food would you like?|request
 SYS|For example, French, Greek, or Japanese.|request
 USR|chinese|inform

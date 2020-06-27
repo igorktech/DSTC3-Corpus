@@ -8,4 +8,4 @@ SYS|It's in the moderate price range.|offer
 USR|what is the address phone number and postcode|request
 SYS|The Auntie's Tea Shop, which is in the area with the postcode CB2 3PQ, is located on 1 Saint Mary's Passage.|offer
 SYS|Its phone number is 01223315641.|offer
-USR|background noise thank you good bye|thankyou
+USR|<unk> <unk> thank you good bye|thankyou

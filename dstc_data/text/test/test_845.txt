@@ -8,10 +8,8 @@ SYS|For example, a cafe, a pub, or a restaurant.|request
 USR|middle eastern restaurant|inform
 SYS|What type of food would you like?|request
 SYS|For example, Mexican and Tex Mex, Indian, or Turkish.|request
-USR|breathing sil|null
 SYS|What type of food would you like?|request
 SYS|For example, Italian, or Thai.|request
-USR|knocking sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Girton, or King's Hedges area.|request
 USR|middle eastern|inform
@@ -20,7 +18,6 @@ SYS|For example, Italian, Middleeastern, or Spanish.|request
 USR|i dont care|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, Barnwell, or Fen Ditton.|request
-USR|breathing sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, King's Hedges, or New Chesterton.|request
 USR|middle eastern|inform
@@ -32,10 +29,8 @@ SYS|For example, something in the central, Fen Ditton, or New Chesterton area.|r
 USR|where|request
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Addenbrooke's, Chesterton, or Newnham area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Castle Hill, or New Chesterton area.|request
-USR|unintelligible|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Arbury, Chesterton, or New Chesterton area.|request
 USR|central|inform
@@ -57,12 +52,10 @@ SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, free, or moderate.|request
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or free.|request
-USR|breathing sil|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or free.|request
 USR|ah expensive|inform
 SYS|The Hotel du Vin is a great restaurant, it's in the riverside part of town and it's in the expensive price range.|offer
-USR|unitelligible|null
 SYS|The Hotel du Vin is on 15-19 Trumpington Street.|offer
 SYS|The price for main courses ranges from 17 pounds to 25 pounds.|offer
 USR|address|request

@@ -21,14 +21,12 @@ SYS|There is no pub in the Girton area.|canthelp
 USR|restaurant in fen ditton|inform
 SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
-USR|coughing|null
 SYS|There is no pub in the Fen Ditton area.|canthelp
 USR|restaurant in fen ditton area|inform
 SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
 SYS|It's in the moderate price range.|offer
 USR|phone number|request
 SYS|The phone number of The Lion and Lamb is 01223860202.|offer
-USR|coughing|null
 SYS|There is no pub in the Fen Ditton area.|canthelp
 USR|phone number|request
 SYS|Can I help you with anything else?|reqmore

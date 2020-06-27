@@ -15,11 +15,11 @@ SYS|There is no restaurant in the central area and serving middleeastern food.|c
 USR|ok|ack
 SYS|What type of food would you like?|request
 SYS|For example, Seafood, or Vegetarian.|request
-USR|unintelligible eastern|null
+USR|<unk> eastern|null
 SYS|What type of food would you like?|request
 SYS|For example, Japanese, Mediterranean, or Spanish.|request
 USR|middle eastern|inform
 SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
 USR|middle eastern|inform
 SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
-USR|im unintelligible|null
+USR|i m <unk>|null

@@ -10,7 +10,6 @@ SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Clare College, Pembroke College, or the People's Portraits Exhibition.|request
 USR|no|negate
 SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
-USR|noise sil|null
 SYS|Spice Merchants, which is in the Cherry Hinton part of town, is a great restaurant.|offer
 USR|can you please give me the address|request
 SYS|Spice Merchants is on 60 Trumpington Road.|offer

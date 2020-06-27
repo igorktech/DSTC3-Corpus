@@ -20,7 +20,6 @@ SYS|This place, which is a great restaurant, is in the cheap price range.|offer
 USR|im looking for an expensive italian restaurant|inform
 SYS|The Sorrento, which serves italian food, is an outstanding restaurant.|offer
 SYS|It's in the expensive price range.|offer
-USR|background noise|null
 SYS|Would you like a venue with a cheap or expensive price range?|select
 USR|expensive|inform
 SYS|The Sorrento, which serves italian food, is a great restaurant.|offer

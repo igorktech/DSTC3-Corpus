@@ -2,10 +2,8 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a restaurant.|request
-USR|noise sil|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, or a pub.|request
 USR|restaurant|inform
@@ -30,10 +28,10 @@ USR|uhm address|request
 SYS|The Wrestlers is located on 337 Newmarket Road.|offer
 USR|phone number|request
 SYS|The phone number of The Wrestlers is 01223566554.|offer
-USR|price noise|request
+USR|price <unk>|request
 SYS|The Wrestlers is a great venue.|offer
 SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
 USR|price|request
 SYS|The Wrestlers is a great venue.|offer
 SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
-USR|noise thank you good bye clicking thank you good bye|bye
+USR|<unk> thank you good bye <unk> thank you good bye|bye

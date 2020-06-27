@@ -2,12 +2,10 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|Are you looking for a pub or a restaurant?|select
 USR|im looking for a cafe food restaurant|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, or moderate.|request
-USR|background noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, expensive, or moderate.|request
 USR|moderate|inform

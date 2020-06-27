@@ -5,7 +5,7 @@ SYS|How may I help you?|welcomemsg
 USR|yes i would like to know about a restaurant|affirm
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Botanic Garden, King's College, or the Scott Polar Museum.|request
-USR|somewhere unintelligible|null
+USR|somewhere <unk>|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, expensive, or free.|request
 USR|um dont care|inform
@@ -14,7 +14,6 @@ SYS|For example, Drinks and snacks only, pub, or Fusion.|request
 USR|snacks|inform
 SYS|The Red Bull is a great restaurant.|offer
 SYS|It's in the Newnham part of town.|offer
-USR|coughing|null
 SYS|The Red Bull is an outstanding restaurant.|offer
 USR|romsey area|inform
 SYS|The Red Bull is an outstanding restaurant.|offer

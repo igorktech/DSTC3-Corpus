@@ -10,7 +10,6 @@ SYS|For example, the Folk Museum, Clare Hall, or Milton Country Park.|request
 USR|anywhere is fine|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Artspace, the Museum of Archaelogy and Anthropology, or the People's Portraits Exhibition.|request
-USR|noise sil|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the central, King's Hedges, or Newnham area.|request
 USR|i dont|null
@@ -21,7 +20,7 @@ SYS|Would you like a chinese food, or you don't care?|select
 USR|chinese food|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Chesterton, or riverside area.|request
-USR|noise i dont care|inform
+USR|<unk> i do nt care|inform
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Cherry Hinton Water Play, Saint Catharine's College, or Saint John's College.|request
 USR|i don|null

@@ -20,7 +20,7 @@ SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or moderate.|request
 USR|i dont care|inform
 SYS|Blue Spice, which serves indian food, is a great restaurant.|offer
-USR|i dont care indian restaurant unintelligible|inform
+USR|i do nt care indian restaurant <unk>|inform
 SYS|Blue Spice is a great restaurant and it serves indian food.|offer
 USR|indian restaurant and it sh|inform
 SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer

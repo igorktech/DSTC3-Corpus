@@ -31,19 +31,14 @@ SYS|Gourmet Burger  is located on 43-45 Regent Street and its phone number is 01
 SYS|Gourmet Burger  is a great restaurant.|offer
 USR|address and phone number|request
 SYS|Gourmet Burger  is located on 43-45 Regent Street and its phone number is 01223312598.|offer
-USR|background noise|null
 SYS|Gourmet Burger  is an outstanding restaurant.|offer
-USR|background noise|null
 SYS|Gourmet Burger  is an outstanding restaurant.|offer
-USR|background noise|null
 SYS|Gourmet Burger  is an outstanding restaurant.|offer
 USR|address and phone number|request
 SYS|Gourmet Burger  is on 43-45 Regent Street and its phone number is 01223312598.|offer
 USR|address and phone number|request
 SYS|Would you like an american food, or you don't care?|select
-USR|background noise|null
 SYS|Would you like an american food, or you don't care?|select
-USR|background noise|null
 SYS|Would you like an american food, or you don't care?|select
 USR|american|inform
 SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
@@ -51,7 +46,6 @@ SYS|Its phone number is 01223312598.|offer
 USR|american|inform
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Castle Hill, or riverside area.|request
-USR|background noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, central, or Romsey.|request
 USR|city center|inform

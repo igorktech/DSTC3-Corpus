@@ -25,15 +25,12 @@ SYS|What type of food would you like?|request
 SYS|For example, Northern european, French, or Traditional.|request
 USR|northern european|inform
 SYS|There is no restaurant in the Romsey area and serving northern european food.|canthelp
-USR|noise sil|null
 SYS|There is no restaurant in the Romsey area and serving northern european food.|canthelp
 USR|mexican|inform
 SYS|Would you like a romsey area, or you don't care?|select
 USR|romsey|inform
 SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
-USR|noise sil|null
 SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
-USR|noise sil|null
 SYS|Would you like a mexican and tex mex food, or you don't care?|select
 USR|fast food|inform
 SYS|Would you like a mexican and tex mex food, or you don't care?|select
@@ -45,13 +42,11 @@ USR|cheap|inform
 SYS|There is no restaurant in the Romsey area and serving fastfood.|canthelp
 USR|cheap|inform
 SYS|There is no restaurant in the Romsey area and serving fastfood.|canthelp
-USR|noise sil|null
 SYS|Would you like a fastfood, or you don't care?|select
 USR|northern european|inform
 SYS|Would you like a romsey area, or you don't care?|select
 USR|romsey|inform
 SYS|There is no restaurant in the Romsey area and serving northern european food.|canthelp
-USR|noise sil|null
 SYS|Would you like a northern european food, or you don't care?|select
 USR|italian|inform
 SYS|Would you like italian or X food?|select

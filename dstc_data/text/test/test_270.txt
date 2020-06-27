@@ -13,7 +13,6 @@ SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Cherry Hinton, King's Hedges, or Romsey area.|request
 USR|i dont care|inform
 SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
-USR|whisperingunintelligible|null
 SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
 USR|can you please give me the address and the price|request
 SYS|The Wrestlers is on 337 Newmarket Road.|offer

@@ -6,7 +6,7 @@ SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
 USR|a pub|inform
 SYS|The Anchor is a great pub.|offer
-USR|noise i need a cheap pub|inform
+USR|<unk> i need a cheap pub|inform
 SYS|The Baron of Beef is an outstanding pub and it's in the cheap price range.|offer
 USR|does it allow children|request
 SYS|The Baron of Beef allows children.|offer

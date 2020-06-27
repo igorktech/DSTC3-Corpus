@@ -4,7 +4,6 @@ from dstc_utilities import *
 data_dir = os.path.join('dstc_data', 'json')
 output_dir = os.path.join('dstc_data', 'text')
 
-
 # If flag is set will only write utterances and not speaker or DA label
 utterance_only_flag = False
 

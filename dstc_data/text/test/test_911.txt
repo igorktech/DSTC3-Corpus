@@ -4,14 +4,12 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 USR|a restaurant in trumpington any price range|inform
 SYS|The Oak Bistro, which is in the Trumpington part of town, is a great restaurant.|offer
-USR|unintelligible whats the address|request
+USR|<unk> what s the address|request
 SYS|The Oak Bistro is on 6 Lensfield Road.|offer
 SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
-USR|unintelligible|null
 SYS|The Oak Bistro is an outstanding restaurant.|offer
-USR|whats the address unintelligible|request
+USR|what s the address <unk>|request
 SYS|The Oak Bistro is on 6 Lensfield Road.|offer
-USR|unintelligible|null
 SYS|The Oak Bistro is a great restaurant.|offer
 USR|whats the address|request
 SYS|The Oak Bistro is located on 6 Lensfield Road.|offer

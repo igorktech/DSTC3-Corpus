@@ -2,7 +2,6 @@ SYS|Thank you for calling the Cambridge Information system.|welcomemsg
 SYS|Your call will be recorded for research purposes.|welcomemsg
 SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
 SYS|How may I help you?|welcomemsg
-USR|background noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub.|request
 USR|restaurant|inform
@@ -16,7 +15,6 @@ SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, Clare College, King's College, or Milton Country Park.|request
 SYS|Are you looking for somewhere near a particular venue?|request
 SYS|For example, the Folk Museum, the Regency Gallery, or Saint Catharine's College.|request
-USR|background noise|null
 SYS|What type of food would you like?|request
 SYS|For example, French, Japanese, or Vegetarian.|request
 USR|fentington|null
@@ -28,7 +26,6 @@ SYS|For example, East asian, American, or Spanish.|request
 USR|any|inform
 SYS|What type of food would you like?|request
 SYS|For example, Cafe food, Indian, or International.|request
-USR|unintelligible|null
 SYS|What type of food would you like?|request
 SYS|For example, Fusion, Seafood, or Thai.|request
 USR|thank you good bye|bye

@@ -13,7 +13,6 @@ USR|can i have the address|request
 SYS|The Wheatsheaf is on Stow Road, Stow-Cum-Quy.|offer
 USR|can i have the phone number|request
 SYS|The phone number of the Wheatsheaf is 01223812196.|offer
-USR|background noise|null
 SYS|The Wheatsheaf, which is in the Barnwell part of town, is a great restaurant.|offer
 USR|can i have the price of the venue|request
 SYS|The Wheatsheaf is a great venue.|offer

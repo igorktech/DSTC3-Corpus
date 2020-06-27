@@ -8,7 +8,7 @@ SYS|I can't hear you.|expl-conf
 SYS|Would you like other or true children?|expl-conf
 USR|im looking for a pub that allows children|inform
 SYS|Are you looking for a venue with an internet connection?|request
-USR|breathing no with television|negate
+USR|<unk> no with television|negate
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap.|request
 USR|any price range|inform

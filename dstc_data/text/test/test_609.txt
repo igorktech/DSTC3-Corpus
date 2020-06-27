@@ -4,10 +4,8 @@ SYS|You may ask for information about a place to eat, such as a restaurant, a pu
 SYS|How may I help you?|welcomemsg
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a pub, or a restaurant.|request
-USR|noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
-USR|noise|null
 SYS|What kind of venue are you looking for?|request
 SYS|For example, a cafe, a pub, or a restaurant.|request
 USR|italian restaurant in|inform
@@ -16,10 +14,8 @@ SYS|For example, expensive, or moderate.|request
 USR|italian restaurant in in addenbrookes|inform
 SYS|What kind of price range are you looking for?|request
 SYS|For example, cheap, or free.|request
-USR|noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, free, or moderate.|request
-USR|noise|null
 SYS|What kind of price range are you looking for?|request
 SYS|For example, free, or moderate.|request
 USR|doesnt matter|inform
@@ -34,19 +30,15 @@ SYS|For example, the Broughton House, the Botanical Garden* Botanical Gardens, o
 USR|addenbrookes|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the central, New Chesterton, or Romsey area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Chesterton, Fen Ditton, or Newnham area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Fen Ditton, Newnham, or riverside area.|request
 USR|no|negate
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Castle Hill, Girton, or Newnham area.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, Girton, or King's Hedges.|request
-USR|noise|null
 SYS|What part of town do you have in mind?|request
 SYS|For example, something in the Barnwell, Castle Hill, or Chesterton area.|request
 USR|thank you goodbye|bye
