@@ -1,42 +1,46 @@
 import zipfile
 import tempfile
-import spacy
+from spacy.lang.en import English
 import os
 from dstc_utilities import *
-nlp = spacy.load('en')
 
-archive_dir = "dstc_archive/"
-data_dir = "dstc_data/"
+nlp = English()
+sentencizer = nlp.create_pipe("sentencizer")
+nlp.add_pipe(sentencizer)
+
+# DSTC3 archive directory
+archive_dir = 'dstc_archive'
+
+# Processed data directory
+data_dir = 'dstc_data'
 
 sets = ['train', 'test']
 
 # Create a temporary directory and unzip the archived data
 with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
-    print('Created temporary directory', tmp_dir)
 
-    zip_file = zipfile.ZipFile(archive_dir + '/dstc3_archive.zip', 'r')
+    # Load into temp directory
+    zip_file = zipfile.ZipFile(os.path.join(archive_dir, 'dstc3_archive.zip'), 'r')
     zip_file.extractall(tmp_dir)
     zip_file.close()
 
     for dataset_name in sets:
         # Get a list of all the dialogues
-        set_list = os.listdir(tmp_dir + "/" + dataset_name)
+        set_list = os.listdir(os.path.join(tmp_dir, dataset_name))
 
         dialogue_data = dict()
         dialogues = []
         num_dialogues = 0
-
         # For each dialogue
         for folder in set_list:
 
             # Read JSON files
-            sys_data = load_json_data(tmp_dir + "/" + dataset_name + "/" + folder + "/", "log")
-            usr_data = load_json_data(tmp_dir + "/" + dataset_name + "/" + folder + "/", "label")
+            sys_data = load_json_data(os.path.join(tmp_dir, dataset_name, folder , "log"))
+            usr_data = load_json_data(os.path.join(tmp_dir, dataset_name, folder, "label"))
 
             dialogue = dict()
             utterances = []
             num_utterances = 0
-
             # For each turn in the dialogue
             for turn in range(len(usr_data['turns'])):
 
@@ -50,7 +54,6 @@ with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
 
                 # Convert system utterances to dictionary
                 for sent in sys_utts.sents:
-
                     utterance = dict()
 
                     # Set speaker
@@ -81,7 +84,6 @@ with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
 
                 # Convert system utterances to dictionary
                 for sent in usr_utts.sents:
-
                     utterance = dict()
 
                     # Set speaker
@@ -125,4 +127,4 @@ with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
         dialogue_data['dialogues'] = dialogues
 
         # Save to JSON file
-        save_json_data(data_dir, "dstc3_" + dataset_name, dialogue_data)
+        save_json_data(os.path.join(data_dir, "dstc3_" + dataset_name), dialogue_data)
