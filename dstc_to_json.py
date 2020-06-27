@@ -1,7 +1,6 @@
 import zipfile
 import tempfile
 from spacy.lang.en import English
-import os
 from dstc_utilities import *
 
 nlp = English()
@@ -12,10 +11,9 @@ nlp.add_pipe(sentencizer)
 archive_dir = 'dstc_archive'
 
 # Processed data directory
-data_dir = 'dstc_data'
+data_dir = os.path.join('dstc_data', 'json')
 
 sets = ['train', 'test']
-
 # Create a temporary directory and unzip the archived data
 with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
 
@@ -89,8 +87,12 @@ with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
                     # Set speaker
                     utterance['speaker'] = "USR"
 
-                    # Set the utterance text
-                    utterance['text'] = sent.text
+                    # Do not keep silence utterances
+                    if sent.text != 'sil' and sent.text != 'system sil':
+                        # Set the utterance text
+                        utterance['text'] = sent.text
+                    else:
+                        continue
 
                     # Set ap labels to empty and da label if it exists
                     utterance['ap_label'] = ""
@@ -98,7 +100,7 @@ with tempfile.TemporaryDirectory(dir=archive_dir) as tmp_dir:
                     if usr_turn['semantics']['json']:
                         utterance['da_label'] = usr_turn['semantics']['json'][0]['act']
                     else:
-                        utterance['da_label'] = ""
+                        utterance['da_label'] = "null"
 
                     # Add to utterances
                     num_utterances += 1

@@ -1,6 +1,7 @@
 # DSTC3-Corpus
 Utilities for Processing the DSTC 3 Corpus
 
+Removed 'sil'
 ### Example JSON Format
 The following is an example of the JSON format.
 

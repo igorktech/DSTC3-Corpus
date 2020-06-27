@@ -1,0 +1,38 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|breathing sil|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|breathing sil|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|noise restaurant traditional restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|traditional restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|noise sil|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|noise sil|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Romsey.|request
+USR|noise moderate noise|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or King's Hedges area.|request
+USR|breathing sil|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, Gonville and Caius College, or Hughes Hall.|request
+USR|romsey romsey|inform
+SYS|There is no restaurant in the Romsey area and serving traditional food.|canthelp
+USR|unintelligible|null
+SYS|Would you like traditional or X food?|select
+USR|noise sil|null
+SYS|Would you like traditional or X food?|select
+USR|thank you good bye|bye
